@@ -167,97 +167,201 @@
       "lessons": [
         {
           "id": "walkaround",
-          "title": "Vehicle walkaround checks",
+          "title": "How to carry out a proper coach walkaround",
           "content": [
-            "Complete a meaningful walkaround before using the vehicle on the public highway, following the current Swans Travel procedure.",
-            "Check tyres and wheels for condition and visible damage. Check lights, mirrors, windows, wipers, bodywork and number plates.",
-            "Check doors, emergency exits, steps, handrails, seat belts and passenger areas. Make sure safety equipment is present and accessible.",
-            "Look for fluid leaks, visible damage and warning indicators. Check the vehicle's height information and understand its dimensions.",
-            "Record the check accurately, including nil defects where the company system requires it. A rushed or tick-box check is not sufficient.",
-            "If you are unsure whether an item is safe, ask a competent supervisor before taking the vehicle out."
+            "Freeway records the walkaround, but tapping through the checklist is not the inspection. You must physically look at the vehicle and assess the condition of the items listed. Complete the check before the vehicle is used on the public highway, preferably immediately before departure. Work methodically, use a torch where needed, and do not rush because a duty is waiting. A previous driver's check does not remove your responsibility to make sure the vehicle is safe when you take charge of it.",
+            "From the driving position, check the windscreen and front side windows for damage, dirt or anything obstructing your view. Check mirrors and camera equipment are present, secure, clean and correctly adjusted. Check wipers and washers, horn, seat belt, dashboard instruments and warning lamps. Make sure the cab and footwell are clear and controls can be reached safely. Follow the vehicle-specific procedure for any checks involving the braking or air system.",
+            "Inspect every tyre, including inner tyres on twin-wheel arrangements where visible. Look for cuts, bulges, exposed cords, embedded objects, cracking, uneven wear and signs of under-inflation. Look at wheel rims for damage and check that wheel fixings appear present and secure. Check wheel nut indicators where fitted and look for signs that a wheel nut may have moved. Look for objects trapped between twin wheels. Never put yourself under the vehicle or in an unsafe position to inspect something.",
+            "Check that headlamps, dipped beam, main beam, side lights, indicators, hazard warning lights, brake lights, rear lights, reflectors and number plates are present, clean, secure and working as required. Use a colleague or an appropriate safe method to confirm brake lights. Look for cracked or missing lenses and lights showing the wrong colour. Check that plates can be read and are not obscured.",
+            "Walk around the front, both sides and rear. Look at body panels, bumpers, mirrors, windows, doors, access panels, luggage lockers, fuel and AdBlue areas, mudguards and underbody areas that are safely visible. Look for loose or hanging parts, sharp edges, fresh impact damage, missing fittings and signs of leaks. Check for fuel, oil, coolant or other fluid on the ground or around the vehicle. Do not crawl underneath or attempt a repair.",
+            "Check passenger doors open, close and secure correctly. Check emergency exits, their markings and any warning indicators. Make sure aisles and exits are unobstructed. Check seats are secure, seat backs and fittings are not damaged, and seat belts are present and work correctly. Look at steps, handrails, grab rails, parcel racks and interior panels for looseness or damage. Check there are no trip hazards, loose items or anything that could injure a passenger during the journey.",
+            "Check the safety equipment required for the vehicle is present, accessible and appears serviceable. Check any fitted wheelchair lift or ramp, wheelchair restraints, accessible equipment, fire extinguisher, first aid kit, emergency hammer, warning equipment and other items in accordance with the vehicle checklist and company procedure. Check height information and any vehicle-specific controls or isolation equipment you are trained to inspect. Do not operate equipment you have not been trained to use.",
+            "Complete each item in Freeway based on what you have actually inspected. Record nil defects only when you have completed the check and found no defects. If you find something, select the correct defect, describe the location and symptoms clearly, and add photographs where the app allows and it is safe to do so. Submit the report and make sure it has been recorded. Never select nil defects to get the vehicle released or because you are running late."
           ],
           "slides": [
             {
-              "heading": "A walkaround is a safety check, not a tick-box",
-              "body": "Before using a vehicle on the public highway, complete a meaningful walkaround in line with Swans Travel procedure. Take the time to look at the condition of the vehicle and identify anything that could affect safety or serviceability.",
-              "example": "A quick glance at the tyres from the cab is not the same as checking the tyres and wheels as part of the walkaround.",
-              "takeaway": "Look properly, do not assume the vehicle is ready because it was used yesterday."
+              "heading": "A walkaround is a physical inspection",
+              "body": "Freeway records the walkaround, but tapping through the checklist is not the inspection. You must physically look at the vehicle and assess the condition of the items listed. Complete the check before the vehicle is used on the public highway, preferably immediately before departure. Work methodically, use a torch where needed, and do not rush because a duty is waiting. A previous driver's check does not remove your responsibility to make sure the vehicle is safe when you take charge of it.",
+              "example": "You have a coach allocated and the departure time is close. You must still complete the inspection properly. If there is not enough time, tell the office rather than submitting a check you have not done.",
+              "takeaway": "Freeway is the record of the check. Your eyes and your judgement carry out the check."
             },
             {
-              "heading": "What to inspect",
-              "body": "Check tyres and wheels, lights, mirrors, windows, wipers, bodywork and number plates. Check doors, emergency exits, steps, handrails, seat belts and passenger areas. Look for leaks, visible damage and warning indicators, and check required safety equipment.",
-              "example": "A faulty passenger door, damaged tyre, obstructed exit or visible fluid leak needs attention. Do not dismiss something because the coach appears to drive normally.",
-              "takeaway": "Check the exterior, passenger areas and safety equipment, not just the obvious items."
+              "heading": "Start with the cab and visibility",
+              "body": "From the driving position, check the windscreen and front side windows for damage, dirt or anything obstructing your view. Check mirrors and camera equipment are present, secure, clean and correctly adjusted. Check wipers and washers, horn, seat belt, dashboard instruments and warning lamps. Make sure the cab and footwell are clear and controls can be reached safely. Follow the vehicle-specific procedure for any checks involving the braking or air system.",
+              "example": "A mirror is loose, a camera screen is not working or the windscreen damage affects your view. Do not assume you can manage without it. Record the issue in Freeway and follow the defect process.",
+              "takeaway": "You need clear visibility and safe control of the vehicle before moving."
             },
             {
-              "heading": "Record what you find",
-              "body": "Record the check accurately, including nil defects where the company system requires it. If you are unsure whether an item is safe, ask a competent supervisor before taking the vehicle out.",
-              "example": "If you find a defect, record it through the correct system with enough detail for someone else to understand what you found.",
-              "takeaway": "A good check includes an accurate record and the right follow-up."
+              "heading": "Check tyres and wheels, all of them",
+              "body": "Inspect every tyre, including inner tyres on twin-wheel arrangements where visible. Look for cuts, bulges, exposed cords, embedded objects, cracking, uneven wear and signs of under-inflation. Look at wheel rims for damage and check that wheel fixings appear present and secure. Check wheel nut indicators where fitted and look for signs that a wheel nut may have moved. Look for objects trapped between twin wheels. Never put yourself under the vehicle or in an unsafe position to inspect something.",
+              "example": "You see a bulge in a tyre sidewall, exposed cord, a deep cut or a tyre that appears significantly under-inflated. Do not decide it will last one more journey. Record it in Freeway and do not take the vehicle out until Engineering has assessed and cleared it.",
+              "takeaway": "Tyres and wheels are safety-critical. Check every wheel position, not just the front tyres."
+            },
+            {
+              "heading": "Check lights, indicators and reflectors",
+              "body": "Check that headlamps, dipped beam, main beam, side lights, indicators, hazard warning lights, brake lights, rear lights, reflectors and number plates are present, clean, secure and working as required. Use a colleague or an appropriate safe method to confirm brake lights. Look for cracked or missing lenses and lights showing the wrong colour. Check that plates can be read and are not obscured.",
+              "example": "A rear brake light is not working or an indicator lens is broken. Identify exactly which light and its position, report it in Freeway and follow the criticality and clearance process. Do not simply assume it is acceptable because the vehicle still moves.",
+              "takeaway": "Lights help you see, be seen and communicate with other road users."
+            },
+            {
+              "heading": "Walk the full outside of the coach",
+              "body": "Walk around the front, both sides and rear. Look at body panels, bumpers, mirrors, windows, doors, access panels, luggage lockers, fuel and AdBlue areas, mudguards and underbody areas that are safely visible. Look for loose or hanging parts, sharp edges, fresh impact damage, missing fittings and signs of leaks. Check for fuel, oil, coolant or other fluid on the ground or around the vehicle. Do not crawl underneath or attempt a repair.",
+              "example": "A luggage locker does not latch, a panel is hanging loose or there is a fresh fluid leak. These are not cosmetic details to ignore. Record what you can see in Freeway and seek the correct assessment before the vehicle is used.",
+              "takeaway": "Look high and low, front to rear, on both sides."
+            },
+            {
+              "heading": "Check doors, exits and the passenger saloon",
+              "body": "Check passenger doors open, close and secure correctly. Check emergency exits, their markings and any warning indicators. Make sure aisles and exits are unobstructed. Check seats are secure, seat backs and fittings are not damaged, and seat belts are present and work correctly. Look at steps, handrails, grab rails, parcel racks and interior panels for looseness or damage. Check there are no trip hazards, loose items or anything that could injure a passenger during the journey.",
+              "example": "A seat is loose, a belt will not latch or luggage is blocking an emergency exit. Do not carry passengers and hope nobody notices. Report the exact location and issue in Freeway and wait for the appropriate decision.",
+              "takeaway": "A safe passenger saloon means secure seats, working restraints and clear exits."
+            },
+            {
+              "heading": "Check safety equipment and vehicle-specific items",
+              "body": "Check the safety equipment required for the vehicle is present, accessible and appears serviceable. Check any fitted wheelchair lift or ramp, wheelchair restraints, accessible equipment, fire extinguisher, first aid kit, emergency hammer, warning equipment and other items in accordance with the vehicle checklist and company procedure. Check height information and any vehicle-specific controls or isolation equipment you are trained to inspect. Do not operate equipment you have not been trained to use.",
+              "example": "A wheelchair restraint is missing or a lift shows a fault. Do not improvise or tell a passenger it will be fine. Record it in Freeway and contact Engineering or the office for direction.",
+              "takeaway": "Check the equipment fitted to that particular coach, not just what you remember from another vehicle."
+            },
+            {
+              "heading": "Finish the check honestly in Freeway",
+              "body": "Complete each item in Freeway based on what you have actually inspected. Record nil defects only when you have completed the check and found no defects. If you find something, select the correct defect, describe the location and symptoms clearly, and add photographs where the app allows and it is safe to do so. Submit the report and make sure it has been recorded. Never select nil defects to get the vehicle released or because you are running late.",
+              "example": "A tyre has a visible cut. Do not submit a nil-defect check and mention the tyre verbally later. Record the actual defect in Freeway so there is a traceable record for Engineering and the operator.",
+              "takeaway": "The Freeway record must match the real condition of the coach."
             }
           ]
         },
         {
-          "id": "defects",
-          "title": "Defects and vehicle fitness",
+          "id": "freeway-defects",
+          "title": "Using Freeway and reporting defects correctly",
           "content": [
-            "Never ignore a warning light, unusual noise, vibration, damaged tyre, faulty door or any other condition that may affect safety.",
-            "Report defects promptly using the Swans Travel defect process. Give the vehicle ID, time, exact symptoms and location.",
-            "Do not take an unroadworthy vehicle onto the road. Do not assume a defect has been cleared because it has been reported.",
-            "Wait for the required authorisation before using a vehicle with a reported defect. If you are unsure, ask the responsible person.",
-            "If a safety-critical defect develops while in service, stop in a safe place and contact the office. Keep passengers safe while the issue is managed."
+            "Freeway is where you complete and submit the vehicle walkaround check and report defects. It also displays vehicle defect status and warnings. Use the app as part of the process, not as a substitute for physically inspecting the coach. Check that you have selected the correct vehicle before starting. Follow the checklist in order and make sure the result is submitted successfully.",
+            "Describe what is wrong, where it is, when it happens and any symptoms you noticed. Avoid vague descriptions such as 'faulty', 'not right' or 'noise'. Include the vehicle identification, date and your details as required by Freeway. Add a photograph if the app supports it and it is safe and useful. Do not guess at the technical cause. Report what you observed.",
+            "If Freeway shows a critical defect or indicates that the vehicle is not roadworthy, the vehicle must not be driven on the road. Do not acknowledge the warning and carry on. Do not assume the warning is old, a glitch or somebody else's problem. Do not decide for yourself that the defect is safe. Keep the vehicle out of service, tell the office and contact Peter in Engineering for direction. The vehicle can only return to service when the defect has been properly assessed, rectified where necessary and formally cleared through the company process.",
+            "Submitting a defect report does not mean the vehicle is repaired or safe. A driver cannot clear a critical defect by pressing a button, adding a comment or deciding that the symptom has disappeared. Do not use a vehicle until the responsible Engineering process has confirmed it is fit for service and the Freeway status and company release process allow it. If the app status and a verbal instruction appear to conflict, stop and get clarification before moving the vehicle.",
+            "For an engineering defect or a critical Freeway warning, contact Peter in Engineering and notify the office or duty manager. Give the vehicle registration, the exact Freeway warning or defect, when it appeared, any symptoms and whether passengers are on board. If the defect occurs during a journey, stop in a safe place, protect passengers and contact the office and Engineering. Follow instructions, but never continue if the vehicle remains unsafe or uncleared.",
+            "Your responsibility does not end when the walkaround is submitted. Pay attention to warning lights, changes in handling, vibration, noises, smells, leaks, tyre problems and passenger door or equipment faults while driving. If you become aware of a potential safety defect, find a safe place to stop, assess and report it. Record defects found during the journey or on return in Freeway so the next driver and Engineering are not left unaware."
           ],
           "slides": [
             {
-              "heading": "Recognise a defect and take it seriously",
-              "body": "Warning lights, unusual noises, vibration, tyre damage and faulty doors may indicate a safety issue. Do not ignore a symptom because the vehicle still seems to operate. A defect can affect passengers, other road users and the vehicle's fitness for service.",
-              "example": "A new warning light appears before departure. Do not decide on your own that it is harmless. Report it and follow the defect process.",
-              "takeaway": "If something changes or does not look or sound right, report it."
+              "heading": "Freeway is the walkaround and defect-reporting system",
+              "body": "Freeway is where you complete and submit the vehicle walkaround check and report defects. It also displays vehicle defect status and warnings. Use the app as part of the process, not as a substitute for physically inspecting the coach. Check that you have selected the correct vehicle before starting. Follow the checklist in order and make sure the result is submitted successfully.",
+              "example": "You are allocated vehicle registration A, but the app still shows vehicle B from your previous duty. Stop and select the correct vehicle before completing the check. A correct inspection attached to the wrong vehicle is not a reliable record.",
+              "takeaway": "Select the right vehicle, inspect it physically, record accurately and submit."
             },
             {
-              "heading": "Report clearly and wait for clearance",
-              "body": "Use the Swans Travel defect process. Give the vehicle ID, time, exact symptoms and location. Do not take an unroadworthy vehicle onto the road and do not assume a defect has been cleared just because it has been reported. Wait for the required authorisation.",
-              "example": "Instead of reporting 'there is a noise', describe when it happens, where it seems to come from and what the vehicle was doing.",
-              "takeaway": "Report the facts and wait for the correct authorisation."
+              "heading": "How to write a useful defect report",
+              "body": "Describe what is wrong, where it is, when it happens and any symptoms you noticed. Avoid vague descriptions such as 'faulty', 'not right' or 'noise'. Include the vehicle identification, date and your details as required by Freeway. Add a photograph if the app supports it and it is safe and useful. Do not guess at the technical cause. Report what you observed.",
+              "example": "Weak report: 'noise from back'. Better report: 'Loud metallic knocking from nearside rear, heard over bumps, first noticed during walkaround'. Engineering can investigate a clear description much more effectively.",
+              "takeaway": "Report what you saw, heard or felt, not a diagnosis you cannot confirm."
             },
             {
-              "heading": "If a defect develops during a journey",
-              "body": "If a safety-critical defect develops while in service, stop in a safe place and contact the office. Keep passengers safe while the issue is managed. Do not put yourself or passengers at further risk by attempting an unauthorised inspection or repair.",
-              "example": "A serious warning appears while carrying passengers. Find a safe place to stop, secure the vehicle and contact the office for instructions.",
-              "takeaway": "Stop safely, protect passengers and contact the office."
+              "heading": "A critical defect warning means do not take the vehicle out",
+              "body": "If Freeway shows a critical defect or indicates that the vehicle is not roadworthy, the vehicle must not be driven on the road. Do not acknowledge the warning and carry on. Do not assume the warning is old, a glitch or somebody else's problem. Do not decide for yourself that the defect is safe. Keep the vehicle out of service, tell the office and contact Peter in Engineering for direction. The vehicle can only return to service when the defect has been properly assessed, rectified where necessary and formally cleared through the company process.",
+              "example": "Freeway displays a critical defect warning, but the duty is due to leave and passengers are waiting. You must not take that coach. Contact the office, explain that Freeway has flagged a critical defect, and contact Peter in Engineering. The office must arrange a suitable alternative vehicle or manage the service.",
+              "takeaway": "A critical warning is a stop instruction. No journey, no passenger movement, no 'just this once'."
+            },
+            {
+              "heading": "Do not confuse reporting with clearance",
+              "body": "Submitting a defect report does not mean the vehicle is repaired or safe. A driver cannot clear a critical defect by pressing a button, adding a comment or deciding that the symptom has disappeared. Do not use a vehicle until the responsible Engineering process has confirmed it is fit for service and the Freeway status and company release process allow it. If the app status and a verbal instruction appear to conflict, stop and get clarification before moving the vehicle.",
+              "example": "You reported a brake warning and the warning light later goes out. That does not prove the cause has been resolved. Keep the vehicle out of service and get Engineering confirmation.",
+              "takeaway": "Reported is not repaired. A warning disappearing is not the same as formal clearance."
+            },
+            {
+              "heading": "Who to contact and what to say",
+              "body": "For an engineering defect or a critical Freeway warning, contact Peter in Engineering and notify the office or duty manager. Give the vehicle registration, the exact Freeway warning or defect, when it appeared, any symptoms and whether passengers are on board. If the defect occurs during a journey, stop in a safe place, protect passengers and contact the office and Engineering. Follow instructions, but never continue if the vehicle remains unsafe or uncleared.",
+              "example": "Say: 'Vehicle YTxx XXX, Freeway is showing a critical defect for the braking system. The warning appeared before departure. The vehicle is parked and I have not taken it out. Please confirm the next steps.'",
+              "takeaway": "Be clear, factual and prompt. Escalate critical defects immediately."
+            },
+            {
+              "heading": "Defects found during a journey or at the end of duty",
+              "body": "Your responsibility does not end when the walkaround is submitted. Pay attention to warning lights, changes in handling, vibration, noises, smells, leaks, tyre problems and passenger door or equipment faults while driving. If you become aware of a potential safety defect, find a safe place to stop, assess and report it. Record defects found during the journey or on return in Freeway so the next driver and Engineering are not left unaware.",
+              "example": "You hear a new grinding noise from a wheel while carrying passengers. Do not wait until you return to the depot if the vehicle may be unsafe. Stop safely, contact the office and follow the defect process.",
+              "takeaway": "Keep monitoring the vehicle. Report new symptoms immediately, not just at the next walkaround."
+            }
+          ]
+        },
+        {
+          "id": "roadworthiness-law",
+          "title": "Your legal responsibility for roadworthiness",
+          "content": [
+            "DVSA guidance says drivers are responsible for making sure the vehicle is safe to drive before setting off. A driver must carry out a walkaround check before the journey and report defects in writing to the person responsible for dealing with them. The operator also has duties to maintain vehicles, provide clear written instructions and have a system to remove non-roadworthy vehicles from service. These responsibilities work together. You cannot transfer your responsibility to the app, the depot or another driver.",
+            "DVSA guidance expects a walkaround check before use, with at least one check in each 24-hour period that a vehicle is in service. The check should cover the whole vehicle and visible items that can be safely assessed without dismantling. The record should identify the vehicle, date, defects or symptoms, the person reporting and who was told. Nil-defect reporting is also important, but only when the check has genuinely been completed.",
+            "If a defect makes the vehicle dangerous or unroadworthy, it must be rectified before the vehicle is used on the road. A driver must not take a vehicle out because the journey is short, the depot is nearby, the timetable is tight or passengers are waiting. Using a public service vehicle in a dangerous condition can lead to serious consequences, including an unlimited fine and imprisonment. The exact legal outcome depends on the facts and offence.",
+            "Police and DVSA can stop buses and coaches, inspect roadworthiness and prohibit a vehicle from being driven until problems are fixed. Drivers can be fined and may face prosecution for roadworthiness offences where they are responsible. The Traffic Commissioner can also take action against drivers who fail to carry out adequate walkaround checks, potentially affecting their vocational entitlement. A poor or false record can make the situation worse because it suggests the check was not properly completed.",
+            "Before moving, ask yourself: have I checked the correct vehicle, completed the physical walkaround, recorded the result in Freeway, understood any warnings and confirmed that any reported defect has been cleared? If Freeway shows a critical defect or the vehicle is otherwise unsafe, do not drive it. Contact the office and Peter in Engineering. Do not let pressure, convenience or another person's instruction make you take an unsafe vehicle onto the road."
+          ],
+          "slides": [
+            {
+              "heading": "The law places responsibility on the driver too",
+              "body": "DVSA guidance says drivers are responsible for making sure the vehicle is safe to drive before setting off. A driver must carry out a walkaround check before the journey and report defects in writing to the person responsible for dealing with them. The operator also has duties to maintain vehicles, provide clear written instructions and have a system to remove non-roadworthy vehicles from service. These responsibilities work together. You cannot transfer your responsibility to the app, the depot or another driver.",
+              "example": "If someone says 'Engineering knows about it' but Freeway still shows a critical defect and there is no clearance, you must not take the vehicle. Knowing about a defect is not the same as making the vehicle roadworthy.",
+              "takeaway": "The driver and operator both have responsibilities. Never drive a vehicle you know is unsafe."
+            },
+            {
+              "heading": "A check must be meaningful and recorded",
+              "body": "DVSA guidance expects a walkaround check before use, with at least one check in each 24-hour period that a vehicle is in service. The check should cover the whole vehicle and visible items that can be safely assessed without dismantling. The record should identify the vehicle, date, defects or symptoms, the person reporting and who was told. Nil-defect reporting is also important, but only when the check has genuinely been completed.",
+              "example": "You are taking over a coach already used earlier in the day. Do not assume the earlier check covers new damage or defects. Follow Swans procedure and make sure you have evidence of the check and that the vehicle remains safe.",
+              "takeaway": "A ticked checklist with no real inspection is not compliance."
+            },
+            {
+              "heading": "Dangerous defects must be fixed before the vehicle is used",
+              "body": "If a defect makes the vehicle dangerous or unroadworthy, it must be rectified before the vehicle is used on the road. A driver must not take a vehicle out because the journey is short, the depot is nearby, the timetable is tight or passengers are waiting. Using a public service vehicle in a dangerous condition can lead to serious consequences, including an unlimited fine and imprisonment. The exact legal outcome depends on the facts and offence.",
+              "example": "A Freeway critical defect appears on a vehicle allocated for a school run. The fact that the route is only a few miles does not change the decision. Do not use it. Escalate and wait for clearance or a replacement vehicle.",
+              "takeaway": "There is no short-trip exception for a dangerous vehicle."
+            },
+            {
+              "heading": "What can happen if you ignore a warning",
+              "body": "Police and DVSA can stop buses and coaches, inspect roadworthiness and prohibit a vehicle from being driven until problems are fixed. Drivers can be fined and may face prosecution for roadworthiness offences where they are responsible. The Traffic Commissioner can also take action against drivers who fail to carry out adequate walkaround checks, potentially affecting their vocational entitlement. A poor or false record can make the situation worse because it suggests the check was not properly completed.",
+              "example": "A driver knowingly takes a vehicle out after Freeway has flagged a critical defect. If stopped, the driver cannot rely on saying that the app warning was seen but ignored or that the office was busy.",
+              "takeaway": "Ignoring a known critical defect can put your licence, job and other people's safety at risk."
+            },
+            {
+              "heading": "Your non-negotiable decision before departure",
+              "body": "Before moving, ask yourself: have I checked the correct vehicle, completed the physical walkaround, recorded the result in Freeway, understood any warnings and confirmed that any reported defect has been cleared? If Freeway shows a critical defect or the vehicle is otherwise unsafe, do not drive it. Contact the office and Peter in Engineering. Do not let pressure, convenience or another person's instruction make you take an unsafe vehicle onto the road.",
+              "example": "A colleague says, 'It was like that yesterday and it got back fine.' That is not clearance. The vehicle's current condition and current Freeway status decide whether it can be used.",
+              "takeaway": "If in doubt, keep it parked and escalate. Never gamble with roadworthiness."
             }
           ]
         },
         {
           "id": "journey",
-          "title": "Journey planning and safe driving",
+          "title": "Journey preparation and safe operation",
           "content": [
-            "Read the job sheet or itinerary and confirm collection points, timings, destination, passenger requirements and any special instructions.",
-            "Check that the route is suitable for the coach's height, width, length, weight and access requirements. Verify restrictions rather than relying on a sat-nav.",
-            "Allow realistic time for traffic, passenger boarding, comfort stops, parking, weather and roadworks. Know the agreed stopping and waiting arrangements.",
-            "Use approved sources to check disruption and consider safe alternatives. If the route or plan becomes unsafe or unworkable, stop and contact the office.",
-            "Drive defensively: maintain space, match speed to conditions and scan well ahead. Check mirrors regularly and anticipate hazards early.",
-            "Remember coach-specific hazards including rear swing, turning circle, longer stopping distances, passenger movement and vulnerable road users.",
-            "Avoid reversing where possible. If a trained banksman is used, agree signals first and stop immediately if visual contact or communication is lost. Do not rely only on cameras or sensors."
+            "Read the job sheet or itinerary and confirm collection points, timings, destination, passenger requirements and special instructions. Make sure the coach allocated is suitable for the job and that its Freeway status does not show a critical defect or restriction. Allow time for the walkaround and for any defect to be dealt with. Never allow the timetable to pressure you into skipping checks.",
+            "Check that the route is suitable for the coach's height, width, length, weight and access requirements. Consider low bridges, weight limits, narrow roads, turning areas, roadworks, weather, traffic and stopping arrangements. Use approved route information and do not rely on a sat-nav to make the decision for you. If a restriction or route is uncertain, stop and seek advice before proceeding.",
+            "Maintain safe following distance, match speed to conditions and scan well ahead. Remember the coach's length, width, height, rear swing, turning circle and longer stopping distance. Take particular care around pedestrians, cyclists, parked vehicles and junctions. Avoid sudden braking and harsh manoeuvres that can injure passengers or cause them to fall.",
+            "Avoid reversing wherever possible. If a trained banksman is needed, agree the signals and position before starting. Reverse slowly and stop immediately if you lose sight of the banksman or communication. Do not rely solely on reversing cameras or sensors. Check the area and blind spots, and make sure nobody is in a crush zone.",
+            "A walkaround is not a one-off guarantee. Stay alert to warning lights, changes in braking or steering, vibration, unusual noise, smells, leaks, tyre issues and door or equipment faults. If a possible safety defect develops, stop at a safe place and report it. Do not continue to the destination simply to avoid disruption."
           ],
           "slides": [
             {
-              "heading": "Prepare before you move",
-              "body": "Read the job sheet or itinerary. Confirm collection points, timings, destination, passenger requirements and special instructions. Allow realistic time for traffic, boarding, comfort stops and parking.",
-              "example": "Before leaving the depot, make sure you know where the passengers are being collected and where the coach is expected to wait or park.",
-              "takeaway": "Know the job and plan the journey before setting off."
+              "heading": "Check the job and the vehicle before departure",
+              "body": "Read the job sheet or itinerary and confirm collection points, timings, destination, passenger requirements and special instructions. Make sure the coach allocated is suitable for the job and that its Freeway status does not show a critical defect or restriction. Allow time for the walkaround and for any defect to be dealt with. Never allow the timetable to pressure you into skipping checks.",
+              "example": "A replacement coach is allocated at short notice. Complete the correct vehicle check and confirm its Freeway status before leaving, even if the previous coach was already checked.",
+              "takeaway": "The job being ready does not mean the vehicle is ready."
             },
             {
-              "heading": "The route must suit the coach",
-              "body": "Check route suitability for the vehicle's height, width, length, weight and access requirements. Consider roadworks, weather, traffic and disruption. A sat-nav is an aid, not the decision-maker. Never follow it into a restriction.",
-              "example": "A sat-nav offers a shortcut under a bridge but you are unsure of the height limit. Do not attempt it. Verify a suitable route and contact the office if the plan is unclear.",
-              "takeaway": "The driver remains responsible for checking that the route is suitable."
+              "heading": "Plan a route suitable for a coach",
+              "body": "Check that the route is suitable for the coach's height, width, length, weight and access requirements. Consider low bridges, weight limits, narrow roads, turning areas, roadworks, weather, traffic and stopping arrangements. Use approved route information and do not rely on a sat-nav to make the decision for you. If a restriction or route is uncertain, stop and seek advice before proceeding.",
+              "example": "A sat-nav offers a shortcut under a low bridge. Do not follow it because it looks quicker. Verify the restriction and use a suitable route.",
+              "takeaway": "The driver remains responsible for ensuring the route is suitable for the vehicle."
             },
             {
-              "heading": "Drive defensively and manoeuvre safely",
-              "body": "Maintain space, match speed to conditions and scan well ahead. Remember the coach's rear swing, turning circle and longer stopping distances. Take extra care around cyclists, pedestrians and other vulnerable road users. Avoid reversing where possible. If using a trained banksman, agree signals and stop immediately if contact is lost.",
-              "example": "If you lose sight of the banksman, stop. Do not continue slowly or rely only on a camera.",
-              "takeaway": "Plan ahead, leave room to react and stop if a manoeuvre is no longer controlled."
+              "heading": "Drive defensively and manage coach-specific risks",
+              "body": "Maintain safe following distance, match speed to conditions and scan well ahead. Remember the coach's length, width, height, rear swing, turning circle and longer stopping distance. Take particular care around pedestrians, cyclists, parked vehicles and junctions. Avoid sudden braking and harsh manoeuvres that can injure passengers or cause them to fall.",
+              "example": "When turning left in a narrow street, consider rear swing and cyclists alongside the vehicle. Do not begin the turn until you have checked it can be completed safely.",
+              "takeaway": "Space, speed and observation give you time to react."
+            },
+            {
+              "heading": "Reversing and manoeuvring",
+              "body": "Avoid reversing wherever possible. If a trained banksman is needed, agree the signals and position before starting. Reverse slowly and stop immediately if you lose sight of the banksman or communication. Do not rely solely on reversing cameras or sensors. Check the area and blind spots, and make sure nobody is in a crush zone.",
+              "example": "You lose sight of the banksman behind the coach. Stop immediately. Do not continue slowly or use the camera as a reason to carry on.",
+              "takeaway": "If you lose control of the manoeuvre, stop and reset it."
+            },
+            {
+              "heading": "Monitor the vehicle throughout the journey",
+              "body": "A walkaround is not a one-off guarantee. Stay alert to warning lights, changes in braking or steering, vibration, unusual noise, smells, leaks, tyre issues and door or equipment faults. If a possible safety defect develops, stop at a safe place and report it. Do not continue to the destination simply to avoid disruption.",
+              "example": "A new warning appears while passengers are on board. Find a safe place to stop, secure the vehicle, protect passengers and contact the office and Engineering. Follow the defect procedure.",
+              "takeaway": "Roadworthiness must be monitored for the whole duty, not just before departure."
             }
           ]
         }
@@ -265,99 +369,123 @@
       "quiz": [
         {
           "id": "vehicle-safety-q1",
-          "question": "Which items are part of the daily walkaround?",
+          "question": "What is Freeway used for at Swans Travel?",
           "options": [
-            "Only tyres and fuel",
-            "Tyres, wheels, lights, mirrors, windows, wipers and bodywork",
-            "Only the passenger seats",
-            "Only dashboard warning lights"
+            "Only viewing duty allocations",
+            "Completing walkaround checks, reporting defects and viewing vehicle defect warnings",
+            "Booking holidays",
+            "Recording passenger complaints"
           ],
           "correctIndex": 1,
-          "explanation": "The walkaround includes the vehicle exterior and key safety components."
+          "explanation": "Freeway is the walkaround check and defect-reporting system. It also displays vehicle defect status and warnings."
         },
         {
           "id": "vehicle-safety-q2",
-          "question": "What should you do if you find a safety-critical defect before departure?",
+          "question": "What makes a walkaround check valid?",
           "options": [
-            "Drive slowly to the depot",
-            "Ignore it if the vehicle feels normal",
-            "Do not use the vehicle, report and record it, then wait for clearance",
-            "Ask a passenger whether it looks serious"
+            "Submitting every item quickly",
+            "Using yesterday's check",
+            "Physically inspecting the vehicle and accurately recording what you find in Freeway",
+            "Asking another driver if the vehicle was fine"
           ],
           "correctIndex": 2,
-          "explanation": "A vehicle with a safety-critical defect must not be used until properly cleared."
+          "explanation": "The app records the check, but the driver must physically inspect the vehicle and report honestly."
         },
         {
           "id": "vehicle-safety-q3",
-          "question": "What details should be included when reporting a defect?",
+          "question": "Freeway displays a critical defect warning before your departure. What must you do?",
           "options": [
-            "Only the driver's name",
-            "Vehicle ID, time, exact symptoms and location",
-            "Only a photograph",
-            "Only the mileage"
+            "Acknowledge it and take the vehicle if the journey is short",
+            "Take it out if the vehicle appears to drive normally",
+            "Keep the vehicle out of service, notify the office and contact Peter in Engineering",
+            "Ask a passenger to decide"
           ],
-          "correctIndex": 1,
-          "explanation": "These details help identify and investigate the defect."
+          "correctIndex": 2,
+          "explanation": "A critical defect warning means the vehicle must not be taken onto the road. It needs the proper Engineering assessment and clearance."
         },
         {
           "id": "vehicle-safety-q4",
-          "question": "What is the correct approach to a sat-nav route with a height restriction?",
+          "question": "Who can clear a critical engineering defect for the vehicle to return to service?",
           "options": [
-            "Follow it because it is designed for vehicles",
-            "Try it slowly",
-            "Do not follow it into a restriction, verify a suitable route",
-            "Ask passengers to watch the roof"
+            "The driver by pressing acknowledge",
+            "Any colleague who says it was fine yesterday",
+            "The driver by submitting a nil-defect check",
+            "The responsible Engineering process, with the required repair or assessment and formal clearance"
           ],
-          "correctIndex": 2,
-          "explanation": "Sat-nav is an aid, not the decision-maker. Never follow it into a restriction."
+          "correctIndex": 3,
+          "explanation": "A driver cannot clear a critical defect by pressing a button or deciding it seems fine. Follow the company Engineering and vehicle release process."
         },
         {
           "id": "vehicle-safety-q5",
-          "question": "What should a driver do if they lose sight of a banksman while reversing?",
+          "question": "Which tyre conditions must be reported and assessed?",
           "options": [
-            "Continue slowly",
-            "Use the camera and continue",
-            "Stop immediately",
-            "Sound the horn and continue"
+            "Only a completely flat tyre",
+            "Cuts, bulges, exposed cords, embedded objects, damage or signs of under-inflation",
+            "Only tyres on the front axle",
+            "Only damage noticed by a passenger"
           ],
-          "correctIndex": 2,
-          "explanation": "Stop if visual contact or communication is lost. Do not guess."
+          "correctIndex": 1,
+          "explanation": "Inspect every tyre position and report damage or symptoms that could affect safe operation."
         },
         {
           "id": "vehicle-safety-q6",
-          "question": "Which approach best describes defensive driving?",
+          "question": "What information makes a defect report useful?",
           "options": [
-            "Drive close to save space",
-            "Maintain space, match speed to conditions and scan ahead",
-            "Focus only on the vehicle immediately ahead",
-            "Keep to the timetable regardless of conditions"
+            "A vague note saying 'not right'",
+            "The driver's opinion about who caused it",
+            "Vehicle identification, date, clear location and description of the defect or symptoms, reporter and who was told",
+            "Only a photograph with no explanation"
           ],
-          "correctIndex": 1,
-          "explanation": "Space, speed and scan are the defensive driving principles in the training."
+          "correctIndex": 2,
+          "explanation": "Clear, factual reports help Engineering identify, assess and rectify the issue."
         },
         {
           "id": "vehicle-safety-q7",
-          "question": "What should be checked in the passenger area?",
+          "question": "What does DVSA guidance say about a driver's responsibility?",
           "options": [
-            "Only seat covers",
-            "Seats, belts, aisle, steps, handrails, luggage and unobstructed exits",
-            "Only heating controls",
-            "Only windows"
+            "The app is legally responsible",
+            "The driver must ensure the vehicle is safe before setting off and report defects in writing",
+            "Only the maintenance team has responsibility",
+            "A valid MOT means no walkaround is needed"
           ],
           "correctIndex": 1,
-          "explanation": "The passenger area must be clean, safe and free of obstructions."
+          "explanation": "Drivers are responsible for making sure the vehicle is safe to drive before setting off and must report defects."
         },
         {
           "id": "vehicle-safety-q8",
-          "question": "What should happen if a safety-critical defect develops while carrying passengers?",
+          "question": "You find a safety-critical defect during a journey. What should you do?",
           "options": [
-            "Continue to the destination",
-            "Stop in a safe place and contact the office",
-            "Ask passengers to inspect it",
-            "Wait until the next scheduled break"
+            "Continue to the depot regardless",
+            "Stop in a safe place, protect passengers and report it promptly",
+            "Wait until the next day's walkaround",
+            "Delete the warning and continue"
           ],
           "correctIndex": 1,
-          "explanation": "Stop safely and contact the office, following the defect procedure."
+          "explanation": "Find a safe place to stop, assess and report the defect. Dangerous defects must be fixed before continuing."
+        },
+        {
+          "id": "vehicle-safety-q9",
+          "question": "A colleague says the critical warning was there yesterday and the coach completed its work. What is the correct response?",
+          "options": [
+            "Use it because it completed the previous duty",
+            "Ignore the warning if the passengers are waiting",
+            "Keep it parked until the current defect is properly assessed and cleared",
+            "Ask the colleague to take responsibility"
+          ],
+          "correctIndex": 2,
+          "explanation": "A previous journey does not prove the vehicle is safe now. Current defects must be dealt with before use."
+        },
+        {
+          "id": "vehicle-safety-q10",
+          "question": "What should you do if you lose sight of a banksman while reversing?",
+          "options": [
+            "Continue slowly",
+            "Rely on the reversing camera",
+            "Stop immediately and re-establish safe communication",
+            "Sound the horn and continue"
+          ],
+          "correctIndex": 2,
+          "explanation": "Stop immediately if visual contact or communication is lost."
         }
       ]
     },
