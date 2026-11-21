@@ -14,6 +14,26 @@
             "Never use a handheld phone while driving. Follow company rules for other devices and distractions.",
             "Protect passenger information. Do not share personal details or photographs without permission, including on social media or personal messaging groups.",
             "Safety and legal compliance always come before keeping to a timetable."
+          ],
+          "slides": [
+            {
+              "heading": "You represent Swans Travel",
+              "body": "A passenger's experience is shaped by the driver they meet. Professional standards are not just about being polite. They include being ready for duty, presenting yourself appropriately, following instructions and making sound decisions throughout the job.",
+              "example": "Before a school or private hire journey, arrive prepared, check the job information and make sure you understand the collection, destination and any passenger requirements.",
+              "takeaway": "Be prepared, professional and respectful from the start of every duty."
+            },
+            {
+              "heading": "Communication is part of the job",
+              "body": "Good communication starts before departure. Confirm the job details, timings, route and any special instructions. During the journey, provide clear and courteous updates and tell the office promptly about delays, route problems or changes. At the end, report completion and anything that needs follow-up.",
+              "example": "If traffic means you may miss the planned arrival time, tell the office when it is safe to do so. Do not wait until the job has finished.",
+              "takeaway": "If a detail matters, check it. Do not guess."
+            },
+            {
+              "heading": "Protect passengers and the company's reputation",
+              "body": "Stay calm if a passenger or road user becomes difficult. Do not argue or allow a disagreement to distract you from driving. Never use a handheld phone while driving. Passenger details and photographs must be kept private and must not be shared without permission.",
+              "example": "A passenger complains angrily about a delay. Listen, explain what you know accurately and contact the office if the issue needs managing. Do not make promises you cannot authorise.",
+              "takeaway": "Calm conduct, safe decisions and respect for privacy are expected every time."
+            }
           ]
         },
         {
@@ -25,6 +45,20 @@
             "Handle lost property through the Swans Travel process. Protect personal information and do not keep items or make informal arrangements with passengers.",
             "Complete job, mileage, defect and incident records accurately and promptly. Include customer concerns and any follow-up required.",
             "Return keys, documents and equipment to the correct place and tell the office when the job is complete."
+          ],
+          "slides": [
+            {
+              "heading": "Finishing a job properly",
+              "body": "The job is not finished simply because the coach has reached its destination. Park in an authorised safe location and secure the vehicle as instructed. Then check the passenger saloon carefully before leaving it.",
+              "example": "Walk through the saloon and check seats, floor areas and luggage spaces. Make sure no passenger or belongings have been left behind.",
+              "takeaway": "Secure the vehicle and check the whole saloon before leaving."
+            },
+            {
+              "heading": "Records, lost property and handover",
+              "body": "Report lost property through the Swans Travel process and protect personal information. Complete job, mileage, defect and incident records accurately and promptly. Tell the office when the job is complete and flag any customer concern or follow-up action.",
+              "example": "You find a phone after a journey. Do not keep it or arrange an informal handover. Follow the company lost-property process and report it.",
+              "takeaway": "Accurate records and a clear handover help the next person do their job."
+            }
           ]
         }
       ],
@@ -141,6 +175,26 @@
             "Look for fluid leaks, visible damage and warning indicators. Check the vehicle's height information and understand its dimensions.",
             "Record the check accurately, including nil defects where the company system requires it. A rushed or tick-box check is not sufficient.",
             "If you are unsure whether an item is safe, ask a competent supervisor before taking the vehicle out."
+          ],
+          "slides": [
+            {
+              "heading": "A walkaround is a safety check, not a tick-box",
+              "body": "Before using a vehicle on the public highway, complete a meaningful walkaround in line with Swans Travel procedure. Take the time to look at the condition of the vehicle and identify anything that could affect safety or serviceability.",
+              "example": "A quick glance at the tyres from the cab is not the same as checking the tyres and wheels as part of the walkaround.",
+              "takeaway": "Look properly, do not assume the vehicle is ready because it was used yesterday."
+            },
+            {
+              "heading": "What to inspect",
+              "body": "Check tyres and wheels, lights, mirrors, windows, wipers, bodywork and number plates. Check doors, emergency exits, steps, handrails, seat belts and passenger areas. Look for leaks, visible damage and warning indicators, and check required safety equipment.",
+              "example": "A faulty passenger door, damaged tyre, obstructed exit or visible fluid leak needs attention. Do not dismiss something because the coach appears to drive normally.",
+              "takeaway": "Check the exterior, passenger areas and safety equipment, not just the obvious items."
+            },
+            {
+              "heading": "Record what you find",
+              "body": "Record the check accurately, including nil defects where the company system requires it. If you are unsure whether an item is safe, ask a competent supervisor before taking the vehicle out.",
+              "example": "If you find a defect, record it through the correct system with enough detail for someone else to understand what you found.",
+              "takeaway": "A good check includes an accurate record and the right follow-up."
+            }
           ]
         },
         {
@@ -152,6 +206,26 @@
             "Do not take an unroadworthy vehicle onto the road. Do not assume a defect has been cleared because it has been reported.",
             "Wait for the required authorisation before using a vehicle with a reported defect. If you are unsure, ask the responsible person.",
             "If a safety-critical defect develops while in service, stop in a safe place and contact the office. Keep passengers safe while the issue is managed."
+          ],
+          "slides": [
+            {
+              "heading": "Recognise a defect and take it seriously",
+              "body": "Warning lights, unusual noises, vibration, tyre damage and faulty doors may indicate a safety issue. Do not ignore a symptom because the vehicle still seems to operate. A defect can affect passengers, other road users and the vehicle's fitness for service.",
+              "example": "A new warning light appears before departure. Do not decide on your own that it is harmless. Report it and follow the defect process.",
+              "takeaway": "If something changes or does not look or sound right, report it."
+            },
+            {
+              "heading": "Report clearly and wait for clearance",
+              "body": "Use the Swans Travel defect process. Give the vehicle ID, time, exact symptoms and location. Do not take an unroadworthy vehicle onto the road and do not assume a defect has been cleared just because it has been reported. Wait for the required authorisation.",
+              "example": "Instead of reporting 'there is a noise', describe when it happens, where it seems to come from and what the vehicle was doing.",
+              "takeaway": "Report the facts and wait for the correct authorisation."
+            },
+            {
+              "heading": "If a defect develops during a journey",
+              "body": "If a safety-critical defect develops while in service, stop in a safe place and contact the office. Keep passengers safe while the issue is managed. Do not put yourself or passengers at further risk by attempting an unauthorised inspection or repair.",
+              "example": "A serious warning appears while carrying passengers. Find a safe place to stop, secure the vehicle and contact the office for instructions.",
+              "takeaway": "Stop safely, protect passengers and contact the office."
+            }
           ]
         },
         {
@@ -165,6 +239,26 @@
             "Drive defensively: maintain space, match speed to conditions and scan well ahead. Check mirrors regularly and anticipate hazards early.",
             "Remember coach-specific hazards including rear swing, turning circle, longer stopping distances, passenger movement and vulnerable road users.",
             "Avoid reversing where possible. If a trained banksman is used, agree signals first and stop immediately if visual contact or communication is lost. Do not rely only on cameras or sensors."
+          ],
+          "slides": [
+            {
+              "heading": "Prepare before you move",
+              "body": "Read the job sheet or itinerary. Confirm collection points, timings, destination, passenger requirements and special instructions. Allow realistic time for traffic, boarding, comfort stops and parking.",
+              "example": "Before leaving the depot, make sure you know where the passengers are being collected and where the coach is expected to wait or park.",
+              "takeaway": "Know the job and plan the journey before setting off."
+            },
+            {
+              "heading": "The route must suit the coach",
+              "body": "Check route suitability for the vehicle's height, width, length, weight and access requirements. Consider roadworks, weather, traffic and disruption. A sat-nav is an aid, not the decision-maker. Never follow it into a restriction.",
+              "example": "A sat-nav offers a shortcut under a bridge but you are unsure of the height limit. Do not attempt it. Verify a suitable route and contact the office if the plan is unclear.",
+              "takeaway": "The driver remains responsible for checking that the route is suitable."
+            },
+            {
+              "heading": "Drive defensively and manoeuvre safely",
+              "body": "Maintain space, match speed to conditions and scan well ahead. Remember the coach's rear swing, turning circle and longer stopping distances. Take extra care around cyclists, pedestrians and other vulnerable road users. Avoid reversing where possible. If using a trained banksman, agree signals and stop immediately if contact is lost.",
+              "example": "If you lose sight of the banksman, stop. Do not continue slowly or rely only on a camera.",
+              "takeaway": "Plan ahead, leave room to react and stop if a manoeuvre is no longer controlled."
+            }
           ]
         }
       ],
@@ -280,6 +374,20 @@
             "Watch for uneven or wet surfaces and give passengers time to board safely. Do not rush people to recover lost time.",
             "Allow passengers time to sit down and stow belongings before moving. Check that luggage is secure and does not block aisles or exits.",
             "Do not move until doors are closed and it is safe and lawful to depart. Never carry more passengers than the vehicle is authorised and configured to carry."
+          ],
+          "slides": [
+            {
+              "heading": "Create a safe place to board",
+              "body": "Stop in a safe, authorised location and secure the vehicle before opening the doors. Keep the steps, doors and pavement area clear. Be aware of uneven or wet surfaces and offer reasonable assistance where appropriate.",
+              "example": "Do not open the doors while the coach is still moving or stopped where passengers would step directly into moving traffic.",
+              "takeaway": "Safe boarding starts with a safe stopping place and a secured vehicle."
+            },
+            {
+              "heading": "Do not rush passengers",
+              "body": "Allow passengers time to board, sit down and stow belongings safely. Check luggage is secure and does not block aisles or exits. Do not move until doors are closed and it is safe and lawful to depart.",
+              "example": "A passenger is still moving down the aisle as the departure time approaches. Wait until it is safe for them to be seated before moving.",
+              "takeaway": "A timetable never justifies moving before passengers are safe."
+            }
           ]
         },
         {
@@ -291,6 +399,20 @@
             "Follow the vehicle and company procedure for ramps, lifts, wheelchair spaces and securement. Use equipment only in line with your training.",
             "Never improvise a lifting or restraint method. If equipment or training is insufficient, pause and seek help from the office or a trained colleague.",
             "Give clear information and allow extra time where needed. Follow company policy and applicable requirements for assistance animals and mobility equipment."
+          ],
+          "slides": [
+            {
+              "heading": "Ask, do not assume",
+              "body": "Treat every passenger with dignity, patience and respect. Ask what assistance is helpful rather than making assumptions about what someone can or cannot do. Give clear information and allow extra time where needed.",
+              "example": "A passenger with a mobility need boards. Ask what assistance they would find useful rather than immediately trying to help in a way they may not want.",
+              "takeaway": "Respect the passenger and ask what support is appropriate."
+            },
+            {
+              "heading": "Use the right equipment and procedure",
+              "body": "Follow the vehicle and company procedure for ramps, lifts, wheelchair spaces and securement. Use equipment in line with your training. Never improvise a lifting or restraint method. If equipment or training is insufficient, pause and seek help.",
+              "example": "You are unsure how to secure mobility equipment. Do not guess or copy an unfamiliar method. Stop and ask a trained colleague or manager.",
+              "takeaway": "If you are unsure, pause and get help. Never improvise."
+            }
           ]
         }
       ],
@@ -407,6 +529,26 @@
             "Never manipulate, falsify, conceal or ask anyone else to alter tachograph records improperly.",
             "Tell the office or responsible manager early if delays threaten legal hours or planned rest. Follow instructions and the applicable rules.",
             "This module is a reminder, not a substitute for checking current DVSA guidance and Swans Travel operating procedures."
+          ],
+          "slides": [
+            {
+              "heading": "Know which rules apply to your duty",
+              "body": "Different operations may be subject to different drivers' hours rules, including domestic, assimilated or AETR rules. Identify which rules apply to the specific operation and follow current guidance and Swans Travel procedures.",
+              "example": "Do not assume that the rules from yesterday's duty automatically apply to today's job. Check the operation and the applicable requirements.",
+              "takeaway": "Know the rules that apply before you start the duty."
+            },
+            {
+              "heading": "Use the tachograph accurately",
+              "body": "Use the tachograph correctly and make accurate mode and activity entries. Records must reflect the work actually carried out. Never manipulate, falsify or conceal records or ask anyone else to alter them improperly.",
+              "example": "If an activity needs recording, make the correct entry rather than relying on memory or asking someone to change it later.",
+              "takeaway": "Tachograph records must be accurate and honest."
+            },
+            {
+              "heading": "Plan, monitor and communicate",
+              "body": "Plan driving, breaks and rest before the journey. Do not rely on memory or guesswork. If traffic or another delay may affect legal hours or planned rest, tell the office or responsible manager early and follow the applicable rules.",
+              "example": "You can see that congestion may put the planned schedule at risk. Contact the office promptly, while safe to do so, rather than waiting until you reach a limit.",
+              "takeaway": "Plan ahead and raise a potential hours problem early."
+            }
           ]
         },
         {
@@ -418,6 +560,20 @@
             "Never drive under the influence of alcohol or drugs.",
             "Follow company rules on mobile phones, smoking, eating and other distractions. Keep attention on driving and passenger safety.",
             "Take required breaks and raise fatigue concerns early. Do not allow pressure to keep to a timetable to override fitness for duty."
+          ],
+          "slides": [
+            {
+              "heading": "Be fit and alert for duty",
+              "body": "Start work fit, alert and able to carry out the duty safely. Fatigue can affect concentration and judgement. Take required breaks and raise fatigue concerns early.",
+              "example": "You feel unusually tired before a duty. Do not hide it or assume you will be fine once you start. Raise the concern with the appropriate manager.",
+              "takeaway": "Being fit for duty is a safety responsibility."
+            },
+            {
+              "heading": "Raise anything that may affect safe driving",
+              "body": "Tell the appropriate manager if illness, fatigue or medication may affect your ability to drive safely. Never drive under the influence of alcohol or drugs. Follow company rules on phones, smoking, eating and other distractions.",
+              "example": "A new medication makes you feel drowsy. Tell the appropriate manager and do not undertake driving if you may be unsafe.",
+              "takeaway": "Be honest about fitness and remove avoidable distractions."
+            }
           ]
         }
       ],
@@ -534,6 +690,26 @@
             "Keep passengers together in a safe place away from moving traffic and other hazards. Consider anyone who may need assistance.",
             "Do not put yourself or passengers at further risk to inspect or repair the vehicle.",
             "When safe, record factual details, witnesses and actions taken. Avoid speculation or assigning blame."
+          ],
+          "slides": [
+            {
+              "heading": "Make the scene as safe as possible",
+              "body": "After a breakdown, collision or serious incident, stop in the safest available place, secure the vehicle and assess immediate danger. Protect life first and follow emergency-service instructions.",
+              "example": "If the coach stops in a dangerous position, focus first on immediate safety and the passengers, not on diagnosing the mechanical problem.",
+              "takeaway": "Stop safely, secure the vehicle and assess danger first."
+            },
+            {
+              "heading": "Call for the right help",
+              "body": "Contact emergency services where required and clearly give the location and nature of the incident. Follow the Swans Travel emergency or breakdown procedure and contact the office as soon as it is safe.",
+              "example": "When speaking to emergency services, give a clear location and explain what has happened. Do not delay an emergency call when it is required.",
+              "takeaway": "Use emergency services when needed and notify the office when safe."
+            },
+            {
+              "heading": "Look after passengers and record facts",
+              "body": "Keep passengers together in a safe place away from moving traffic and other hazards. Do not put yourself or passengers at further risk to inspect or repair the vehicle. When safe, record factual details, witnesses and actions taken.",
+              "example": "Do not stand passengers beside a coach in a hazardous location just because it is convenient. Follow the safest available arrangements.",
+              "takeaway": "Passenger welfare comes first. Record facts when it is safe."
+            }
           ]
         },
         {
@@ -545,6 +721,26 @@
             "Do not re-enter a vehicle or retrieve belongings if there is danger.",
             "Account for passengers where possible and report anyone missing or needing assistance.",
             "Do not attempt firefighting unless you are trained, it is safe, and the correct equipment and an escape route are available."
+          ],
+          "slides": [
+            {
+              "heading": "Know the vehicle's emergency arrangements",
+              "body": "Know the location and operation of emergency exits and the vehicle's safety equipment. Follow the vehicle-specific evacuation procedure and your training.",
+              "example": "Before an emergency happens, familiarise yourself with the exits and equipment on the vehicle you are driving.",
+              "takeaway": "Know the vehicle and follow its evacuation procedure."
+            },
+            {
+              "heading": "Give clear evacuation instructions",
+              "body": "If evacuation is required, give passengers short, clear instructions and direct them to a safe assembly point away from traffic. Do not re-enter the vehicle or retrieve belongings if there is danger.",
+              "example": "Use clear instructions that passengers can act on. Direct them away from the vehicle and traffic rather than allowing people to gather around it.",
+              "takeaway": "Move people to safety and do not send anyone back into danger."
+            },
+            {
+              "heading": "Account for passengers and act within your training",
+              "body": "Account for passengers where possible and report anyone missing or needing assistance. Do not attempt firefighting unless you are trained, it is safe, and the correct equipment and an escape route are available.",
+              "example": "Do not attempt to fight a fire simply because an extinguisher is nearby. Your training, the conditions and a safe escape route all matter.",
+              "takeaway": "Do not take risks beyond your training or the safe conditions."
+            }
           ]
         }
       ],
@@ -661,6 +857,32 @@
             "Scenario: traffic delays may affect legal hours or planned rest. Contact the office or responsible manager promptly and follow the rules that apply to the duty.",
             "Scenario: a passenger is upset about a delay. Stay calm, listen and explain accurately. Do not promise something you cannot authorise or compromise safety to recover time.",
             "Scenario: you are unsure how to assist a passenger safely. Pause, do not improvise a lift or restraint, and ask a trained colleague or manager for help."
+          ],
+          "slides": [
+            {
+              "heading": "Scenario: a warning light appears",
+              "body": "A new warning light appears while passengers are on board. Do not ignore it or assume it is harmless. Stop in a safe place, assess immediate risk and follow the company defect procedure. Contact the office and do not continue if the vehicle may be unsafe.",
+              "example": "Think through the order: safe stopping place, secure the vehicle, passenger welfare, contact the office and follow instructions.",
+              "takeaway": "Stop safely and follow the defect process."
+            },
+            {
+              "heading": "Scenario: an uncertain low bridge",
+              "body": "Your sat-nav suggests a shortcut but you are unsure about the height restriction. Do not proceed until the restriction and route are verified. The sat-nav does not override the vehicle's dimensions or approved route planning.",
+              "example": "What would you do if the road is narrow and there is nowhere safe to turn around? This is why route suitability must be checked before entering a restricted area.",
+              "takeaway": "Never guess with a height or weight restriction."
+            },
+            {
+              "heading": "Scenario: reversing and fatigue",
+              "body": "If you lose sight of a banksman, stop immediately. If traffic delays may affect legal hours or planned rest, contact the office or responsible manager promptly and follow the rules that apply to the duty.",
+              "example": "In both situations, continuing and hoping for the best increases risk. Stop or raise the concern before it becomes worse.",
+              "takeaway": "Stop when control or communication is lost. Raise hours concerns early."
+            },
+            {
+              "heading": "Scenario: passenger complaint or uncertainty",
+              "body": "If a passenger is upset about a delay, stay calm, listen and explain accurately. Do not promise something you cannot authorise or compromise safety to recover time. If you are unsure how to assist a passenger safely, pause and seek help rather than improvising.",
+              "example": "A passenger asks you to use an unsafe stopping place to save them a walk. Explain calmly and follow the safe arrangements.",
+              "takeaway": "Be helpful, but never compromise safety or act outside your training."
+            }
           ]
         },
         {
@@ -672,6 +894,26 @@
             "Record the topics covered, practical checks required, actions outstanding, knowledge outcome, practical assessment outcome and review date.",
             "A driver signature confirms attendance or discussion. It does not replace a competent practical assessment or manager review.",
             "Use the current DVSA guidance, Swans Travel procedures, vehicle handbook and operator instructions. This company induction is not an approved Driver CPC course."
+          ],
+          "slides": [
+            {
+              "heading": "What the assessment is checking",
+              "body": "The module knowledge check is there to confirm that you understand the training, not to replace it. Work through the lessons, consider the examples and use the interactive decisions to practise applying the information.",
+              "example": "If a question feels unfamiliar, revisit the lesson and understand why the safe response is correct before trying again.",
+              "takeaway": "Learn the material first. The quiz confirms your understanding."
+            },
+            {
+              "heading": "How completion works",
+              "body": "Each module assessment requires 100%. If an answer is incorrect, review the explanation and the relevant lesson, then retake the assessment. Further coaching should be provided where needed.",
+              "example": "You score 7 out of 8. The module remains in progress. Review the incorrect answer and try again when you understand the subject.",
+              "takeaway": "A module is passed only when every question is correct."
+            },
+            {
+              "heading": "Training records and practical sign-off",
+              "body": "Record the topics covered, practical checks required, actions outstanding, knowledge outcome, practical assessment outcome and review date. A driver signature confirms attendance or discussion. It does not replace a competent practical assessment or manager review.",
+              "example": "Passing the online quiz does not prove a driver can complete a walkaround or safely manoeuvre a coach. Those practical skills still need appropriate assessment.",
+              "takeaway": "Online learning supports training, it does not replace practical competence checks."
+            }
           ]
         }
       ],
