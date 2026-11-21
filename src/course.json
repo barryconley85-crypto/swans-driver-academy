@@ -1249,49 +1249,115 @@
           "id": "scenarios",
           "title": "Practical scenarios",
           "content": [
-            "Scenario: a new warning light appears while passengers are on board. Stop in a safe place, assess immediate risk and follow the company defect procedure. Contact the office and do not continue if the vehicle may be unsafe.",
-            "Scenario: a sat-nav suggests a shortcut but you are unsure about a height restriction. Do not proceed until the restriction and route are verified. The sat-nav does not override vehicle dimensions or approved route planning.",
-            "Scenario: you lose sight of a banksman while reversing. Stop immediately. Only continue when safe communication and visual contact are re-established.",
-            "Scenario: traffic delays may affect legal hours or planned rest. Contact the office or responsible manager promptly and follow the rules that apply to the duty.",
-            "Scenario: a passenger is upset about a delay. Stay calm, listen and explain accurately. Do not promise something you cannot authorise or compromise safety to recover time.",
-            "Scenario: you are unsure how to assist a passenger safely. Pause, do not improvise a lift or restraint, and ask a trained colleague or manager for help."
+            "Scenario 1: A warning light appears while passengers are on board. What do you do first? Stop at the first safe place, secure the coach and assess the warning The first priority is to stop safely and secure the vehicle. Then assess the situation and follow the defect procedure. Do not continue if the vehicle may be unsafe.",
+            "Scenario 2: Your sat-nav suggests a shortcut, but you are unsure whether the bridge is high enough. What is your decision? Do not enter the restriction until the route and clearance are verified Never guess with a height restriction. The driver must verify the route is suitable for the actual vehicle. Sat-nav does not override signs or vehicle dimensions.",
+            "Scenario 3: You are reversing with a banksman and lose sight of them. What should you do? Stop immediately and only continue when safe visual contact and communication are restored Losing sight of the banksman means the agreed control has been lost. Stop immediately. Do not continue until the area and communication are safe.",
+            "Scenario 4: Traffic delays mean you may not reach your destination before a required break or rest. What should you do? Contact the office or responsible manager early and follow the rules that apply to your duty Raise the issue early so a compliant plan can be made. Never falsify activity or let passenger pressure override the applicable rules.",
+            "Scenario 5: A passenger is angry about a delay and demands that you drive faster. What is the best response? Stay calm, explain what you know and continue to drive safely Acknowledge the concern and communicate accurately. Do not promise what you cannot control or compromise safety to recover time.",
+            "Scenario 6: A passenger needs assistance, but you are unsure how to use the equipment safely. What should you do? Pause, keep the passenger safe and seek help from someone trained or the office Do not improvise lifting, ramp or restraint methods. Pause and obtain competent assistance or an authorised plan."
           ],
           "slides": [
             {
               "heading": "Scenario: a warning light appears",
               "body": "A new warning light appears while passengers are on board. Do not ignore it or assume it is harmless. Stop in a safe place, assess immediate risk and follow the company defect procedure. Contact the office and do not continue if the vehicle may be unsafe.",
               "example": "Think through the order: safe stopping place, secure the vehicle, passenger welfare, contact the office and follow instructions.",
-              "takeaway": "Stop safely and follow the defect process."
+              "takeaway": "Stop safely and follow the defect process.",
+              "decision": {
+                "question": "A warning light appears while passengers are on board. What do you do first?",
+                "options": [
+                  "Continue to the next stop and report it there",
+                  "Stop at the first safe place, secure the coach and assess the warning",
+                  "Switch the engine off immediately wherever you are",
+                  "Ask passengers whether they have noticed anything"
+                ],
+                "correctIndex": 1,
+                "explanation": "The first priority is to stop safely and secure the vehicle. Then assess the situation and follow the defect procedure. Do not continue if the vehicle may be unsafe."
+              }
             },
             {
               "heading": "Scenario: an uncertain low bridge",
               "body": "Your sat-nav suggests a shortcut but you are unsure about the height restriction. Do not proceed until the restriction and route are verified. The sat-nav does not override the vehicle's dimensions or approved route planning.",
               "example": "What would you do if the road is narrow and there is nowhere safe to turn around? This is why route suitability must be checked before entering a restricted area.",
-              "takeaway": "Never guess with a height or weight restriction."
+              "takeaway": "Never guess with a height or weight restriction.",
+              "decision": {
+                "question": "Your sat-nav suggests a shortcut, but you are unsure whether the bridge is high enough. What is your decision?",
+                "options": [
+                  "Follow the sat-nav slowly",
+                  "Ask a passenger to look at the height sign",
+                  "Do not enter the restriction until the route and clearance are verified",
+                  "Drive close to the centre line to avoid the bridge edge"
+                ],
+                "correctIndex": 2,
+                "explanation": "Never guess with a height restriction. The driver must verify the route is suitable for the actual vehicle. Sat-nav does not override signs or vehicle dimensions."
+              }
             },
             {
               "heading": "Scenario: reversing and fatigue",
               "body": "If you lose sight of a banksman, stop immediately. If traffic delays may affect legal hours or planned rest, contact the office or responsible manager promptly and follow the rules that apply to the duty.",
               "example": "In both situations, continuing and hoping for the best increases risk. Stop or raise the concern before it becomes worse.",
-              "takeaway": "Stop when control or communication is lost. Raise hours concerns early."
+              "takeaway": "Stop when control or communication is lost. Raise hours concerns early.",
+              "decision": {
+                "question": "You are reversing with a banksman and lose sight of them. What should you do?",
+                "options": [
+                  "Continue slowly using the camera",
+                  "Sound the horn and keep moving",
+                  "Stop immediately and only continue when safe visual contact and communication are restored",
+                  "Ask a passenger to watch the rear"
+                ],
+                "correctIndex": 2,
+                "explanation": "Losing sight of the banksman means the agreed control has been lost. Stop immediately. Do not continue until the area and communication are safe."
+              }
             },
             {
               "heading": "Scenario: passenger complaint or uncertainty",
               "body": "If a passenger is upset about a delay, stay calm, listen and explain accurately. Do not promise something you cannot authorise or compromise safety to recover time. If you are unsure how to assist a passenger safely, pause and seek help rather than improvising.",
               "example": "A passenger asks you to use an unsafe stopping place to save them a walk. Explain calmly and follow the safe arrangements.",
-              "takeaway": "Be helpful, but never compromise safety or act outside your training."
+              "takeaway": "Be helpful, but never compromise safety or act outside your training.",
+              "decision": {
+                "question": "Traffic delays mean you may not reach your destination before a required break or rest. What should you do?",
+                "options": [
+                  "Keep driving and explain afterwards",
+                  "Contact the office or responsible manager early and follow the rules that apply to your duty",
+                  "Change the tachograph mode to availability",
+                  "Ask passengers whether they mind a late break"
+                ],
+                "correctIndex": 1,
+                "explanation": "Raise the issue early so a compliant plan can be made. Never falsify activity or let passenger pressure override the applicable rules."
+              }
             },
             {
               "heading": "Decide, act and explain your reasoning",
               "body": "Professional competence means applying knowledge to an unfamiliar situation. Before choosing an action, identify the immediate hazard, who could be harmed, what information is missing and which procedure applies. Then choose the safest action and explain why alternatives are unsafe. In practice, a strong driver can explain the decision, not just repeat a rule.",
               "example": "A warning appears, a passenger is upset and the coach is blocking a narrow road. Separate the immediate safety decision from the customer-service issue, deal with the hazard first and communicate the plan.",
-              "takeaway": "A good decision is safe, proportionate and explainable."
+              "takeaway": "A good decision is safe, proportionate and explainable.",
+              "decision": {
+                "question": "A passenger is angry about a delay and demands that you drive faster. What is the best response?",
+                "options": [
+                  "Drive faster if the road is clear",
+                  "Argue that the delay is not your fault",
+                  "Stay calm, explain what you know and continue to drive safely",
+                  "Promise a new arrival time even though you cannot confirm it"
+                ],
+                "correctIndex": 2,
+                "explanation": "Acknowledge the concern and communicate accurately. Do not promise what you cannot control or compromise safety to recover time."
+              }
             },
             {
               "heading": "Learn from near misses and changing conditions",
               "body": "A near miss is useful information, not something to dismiss because nobody was injured. Think about what changed, what control failed or was missing and what would prevent a repeat. Report hazards through the company process. Be prepared to change a plan when weather, traffic, passenger behaviour, vehicle condition or site access makes the original plan unsafe.",
               "example": "You avoid a collision with a cyclist because you spotted them late in a blind area. Report the concern and reflect on positioning, mirror checks and the conditions that made the cyclist difficult to see.",
-              "takeaway": "Use near misses and changing conditions to improve future decisions."
+              "takeaway": "Use near misses and changing conditions to improve future decisions.",
+              "decision": {
+                "question": "A passenger needs assistance, but you are unsure how to use the equipment safely. What should you do?",
+                "options": [
+                  "Try a lifting method you have seen before",
+                  "Ask another passenger to help lift them",
+                  "Pause, keep the passenger safe and seek help from someone trained or the office",
+                  "Refuse assistance without explanation"
+                ],
+                "correctIndex": 2,
+                "explanation": "Do not improvise lifting, ramp or restraint methods. Pause and obtain competent assistance or an authorised plan."
+              }
             }
           ],
           "scenario": {
