@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn(){ return request.auth != null; }
+    function userDoc(){ return get(/databases/$(database)/documents/users/$(request.auth.uid)).data; }
+    function isManager(){ return signedIn() && userDoc().role in ['admin','manager']; }
+    match /users/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isManager());
+      allow create, update, delete: if isManager();
+    }
+    match /courses/{courseId> {
+      allow read: if signedIn();
+      allow write: if isManager();
+    }
+    match /assignments/{assignmentId} {
+      allow read: if signedIn() && (resource.data.driverId == request.auth.uid || isManager());
+      allow create, update, delete: if isManager();
+    }
+    match /progress/{progressId} {
+      allow read: if signedIn() && (resource.data.driverId == request.auth.uid || isManager());
+      allow create, update: if signedIn() && (request.resource.data.driverId == request.auth.uid || isManager());
+      allow delete: if isManager();
+    }
+  }
+}
