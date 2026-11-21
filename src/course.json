@@ -33,8 +33,31 @@
               "body": "Stay calm if a passenger or road user becomes difficult. Do not argue or allow a disagreement to distract you from driving. Never use a handheld phone while driving. Passenger details and photographs must be kept private and must not be shared without permission.",
               "example": "A passenger complains angrily about a delay. Listen, explain what you know accurately and contact the office if the issue needs managing. Do not make promises you cannot authorise.",
               "takeaway": "Calm conduct, safe decisions and respect for privacy are expected every time."
+            },
+            {
+              "heading": "Professional judgement when the pressure is on",
+              "body": "Professional conduct is not just being polite. It is making reliable decisions when the job changes, a passenger is unhappy or the timetable is slipping. You must communicate facts clearly, avoid promises you cannot authorise and never let pressure change a safe decision. A calm, factual handover helps the next person understand what has happened and what still needs doing.",
+              "example": "A passenger says the coach is late and demands that you use a faster route through a narrow residential street. A professional response is to acknowledge the frustration, explain that you will use a suitable safe route and contact the office if the plan needs changing.",
+              "takeaway": "Professionalism means calm communication and sound judgement, especially under pressure."
+            },
+            {
+              "heading": "Privacy is part of passenger care",
+              "body": "Passenger names, contact details, travel arrangements, photographs and information about a person's needs must be treated carefully. Do not share passenger information in group chats or on social media. Only pass information to people who need it for the job, using the company's approved process. If information is sent to the wrong person or a device is lost, report it promptly rather than trying to hide it.",
+              "example": "You take a photograph of a lost item that also shows a passenger list. Do not post it in a driver group. Use the approved lost-property process and keep personal details out of the image.",
+              "takeaway": "Only collect, use and share passenger information when it is necessary and authorised."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "A passenger is angry about a delay and demands that you take an unsuitable shortcut. What is the best response?",
+            "options": [
+              "Use the shortcut to keep the passenger happy",
+              "Stay calm, explain you will use a safe suitable route and contact the office if needed",
+              "Tell the passenger to complain when they arrive",
+              "Ignore the passenger and say nothing"
+            ],
+            "correctIndex": 1,
+            "explanation": "A professional driver communicates calmly and does not compromise safe route choice to recover time."
+          }
         },
         {
           "id": "end-of-job",
@@ -58,8 +81,25 @@
               "body": "Report lost property through the Swans Travel process and protect personal information. Complete job, mileage, defect and incident records accurately and promptly. Tell the office when the job is complete and flag any customer concern or follow-up action.",
               "example": "You find a phone after a journey. Do not keep it or arrange an informal handover. Follow the company lost-property process and report it.",
               "takeaway": "Accurate records and a clear handover help the next person do their job."
+            },
+            {
+              "heading": "A proper handover closes the safety loop",
+              "body": "The job is not finished simply because the passengers have got off. Check the vehicle, passenger saloon, luggage areas and any accessible storage spaces. Report damage, defects, lost property and passenger concerns through the correct process. A clear handover identifies the vehicle, time, location, what was found and who was informed. Do not leave the next driver to discover an unresolved safety issue.",
+              "example": "You notice a loose seat fitting after the final passenger leaves. Record and report it before handing the vehicle over, even if the next duty is not due to start for several hours.",
+              "takeaway": "Finish the job by checking, recording and handing over anything that needs action."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "At the end of a duty you notice a loose seat fitting, but the next coach duty is not for several hours. What should you do?",
+            "options": [
+              "Leave it for the next driver to find",
+              "Only report it if a passenger complains",
+              "Record and report it through the defect process before handover",
+              "Tighten it yourself without authorisation"
+            ],
+            "correctIndex": 2,
+            "explanation": "Defects must be reported promptly so the vehicle can be assessed before further use."
+          }
         }
       ],
       "quiz": [
@@ -226,8 +266,31 @@
               "body": "Complete each item in Freeway based on what you have actually inspected. Record nil defects only when you have completed the check and found no defects. If you find something, select the correct defect, describe the location and symptoms clearly, and add photographs where the app allows and it is safe to do so. Submit the report and make sure it has been recorded. Never select nil defects to get the vehicle released or because you are running late.",
               "example": "A tyre has a visible cut. Do not submit a nil-defect check and mention the tyre verbally later. Record the actual defect in Freeway so there is a traceable record for Engineering and the operator.",
               "takeaway": "The Freeway record must match the real condition of the coach."
+            },
+            {
+              "heading": "Look for evidence, not just a tick-box",
+              "body": "A walkaround is an inspection, not a memory test. Look at the component, check its condition and ask whether it could affect safe operation. Compare the left and right sides where useful. Look for changes such as fresh damage, missing fixings, fluid marks, tyre bulges, exposed cords, insecure panels or signs of rubbing. If a check cannot be completed properly, do not record it as satisfactory.",
+              "example": "A tyre may look inflated from a distance but have a sidewall bulge. Walk close enough to inspect the whole visible tyre and do not rely on appearance from the cab.",
+              "takeaway": "A completed checklist is only useful when the physical inspection has actually been done."
+            },
+            {
+              "heading": "Know what a defect report must achieve",
+              "body": "A useful report allows Engineering to identify the vehicle, understand the symptom, assess its significance and decide what inspection or repair is needed. State what you observed, where it is, when it happened and whether it changed. Avoid vague entries such as 'noise' or 'something wrong'. Do not diagnose beyond your knowledge and never downgrade a concern just to keep the vehicle moving.",
+              "example": "Instead of writing 'brakes noisy', describe when the noise occurs, whether there is vibration or a warning, which end of the vehicle it appears to come from and whether it began during the journey.",
+              "takeaway": "Describe observable facts precisely, then let the authorised engineering process assess the defect."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "You see a tyre with a visible sidewall bulge, but it is holding air. What is the right decision?",
+            "options": [
+              "Use it for a short local journey",
+              "Record it as a minor observation and continue",
+              "Do not use the vehicle, report the defect and await assessment",
+              "Ask another driver if they think it looks acceptable"
+            ],
+            "correctIndex": 2,
+            "explanation": "A sidewall bulge can indicate structural tyre damage. Do not make an informal decision to use the vehicle."
+          }
         },
         {
           "id": "freeway-defects",
@@ -276,8 +339,31 @@
               "body": "Your responsibility does not end when the walkaround is submitted. Pay attention to warning lights, changes in handling, vibration, noises, smells, leaks, tyre problems and passenger door or equipment faults while driving. If you become aware of a potential safety defect, find a safe place to stop, assess and report it. Record defects found during the journey or on return in Freeway so the next driver and Engineering are not left unaware.",
               "example": "You hear a new grinding noise from a wheel while carrying passengers. Do not wait until you return to the depot if the vehicle may be unsafe. Stop safely, contact the office and follow the defect process.",
               "takeaway": "Keep monitoring the vehicle. Report new symptoms immediately, not just at the next walkaround."
+            },
+            {
+              "heading": "A report is not permission to drive",
+              "body": "Freeway is Swans Travel's walkaround and defect-reporting app. Submitting a defect records the concern, it does not prove the vehicle is safe and it does not authorise a driver to continue. A critical defect warning means the vehicle must remain out of service. Do not acknowledge the warning and carry on, move passengers or use the vehicle 'just this once'. The vehicle needs an Engineering assessment and formal clearance through the company's process.",
+              "example": "You submit a report for a steering warning and Freeway displays a critical defect. Even if the office is busy and the coach is booked, you do not take it out. Contact the office and Peter in Engineering and wait for formal clearance.",
+              "takeaway": "Freeway records the defect. Engineering clearance, not the act of reporting, determines whether the vehicle can return to service."
+            },
+            {
+              "heading": "Escalate clearly and preserve the evidence",
+              "body": "When a critical warning appears, contact the office and Peter in Engineering. Give the vehicle identity, exact warning or symptom, time, location, whether passengers are on board and what action has already been taken. Do not clear, reset or dismiss a warning to make the vehicle appear available. If the defect develops while moving, stop at a safe place, protect passengers and follow instructions. Record the event accurately in Freeway.",
+              "example": "A warning appears after leaving the depot. Pull in safely, secure the coach, explain the warning and location to the office and Engineering, and do not resume until the vehicle is formally cleared.",
+              "takeaway": "Stop safely, report accurately and wait for the authorised decision."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "Freeway displays a critical defect warning, but the coach is booked and the office is busy. What must happen?",
+            "options": [
+              "Acknowledge the warning and complete the first journey",
+              "Ask the passengers whether they are happy to travel",
+              "Keep the vehicle out of service, contact the office and Peter in Engineering, and wait for formal clearance",
+              "Move the coach to another depot before reporting it"
+            ],
+            "correctIndex": 2,
+            "explanation": "A critical warning means no use. Reporting it is not clearance, formal Engineering assessment and clearance are required."
+          }
         },
         {
           "id": "roadworthiness-law",
@@ -319,8 +405,31 @@
               "body": "Before moving, ask yourself: have I checked the correct vehicle, completed the physical walkaround, recorded the result in Freeway, understood any warnings and confirmed that any reported defect has been cleared? If Freeway shows a critical defect or the vehicle is otherwise unsafe, do not drive it. Contact the office and Peter in Engineering. Do not let pressure, convenience or another person's instruction make you take an unsafe vehicle onto the road.",
               "example": "A colleague says, 'It was like that yesterday and it got back fine.' That is not clearance. The vehicle's current condition and current Freeway status decide whether it can be used.",
               "takeaway": "If in doubt, keep it parked and escalate. Never gamble with roadworthiness."
+            },
+            {
+              "heading": "Understand the difference between a check and a safety inspection",
+              "body": "The driver's daily walkaround and the operator's planned safety inspection are different controls. The driver checks the vehicle before use and remains alert to defects while driving. The operator arranges scheduled inspections, maintenance and rectification. One does not replace the other. A previous driver's nil report does not remove your responsibility to check the vehicle before your duty.",
+              "example": "The vehicle completed a duty yesterday without a reported defect. Today you find a damaged tyre. Yesterday's check is not evidence that the vehicle is safe today.",
+              "takeaway": "Your own pre-use check and ongoing observation remain essential on every duty."
+            },
+            {
+              "heading": "Use the correct stop-and-report decision",
+              "body": "If you find a defect that could make the vehicle unsafe, do not decide on your own that it is acceptable because the journey is short or the passengers are waiting. Record the facts and use the company's defect escalation process. Dangerous defects must be rectified before the vehicle continues. Only the appropriate authorised process can establish that the vehicle is fit to return to service.",
+              "example": "A loose exterior panel is vibrating and could detach. Do not continue because the depot is only ten minutes away. Stop safely and report it for assessment.",
+              "takeaway": "Never trade roadworthiness for timetable pressure."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "Yesterday's driver recorded no defects. Today you discover a defect that could make the coach unsafe. What is your responsibility?",
+            "options": [
+              "Rely on yesterday's nil report",
+              "Use the coach if the defect was not previously reported",
+              "Make your own pre-use decision, report the defect and keep the vehicle out of use if unsafe",
+              "Ask passengers to decide whether the journey can continue"
+            ],
+            "correctIndex": 2,
+            "explanation": "The driver must check before use and report defects. A previous nil report does not replace today's inspection."
+          }
         },
         {
           "id": "journey",
@@ -362,8 +471,31 @@
               "body": "A walkaround is not a one-off guarantee. Stay alert to warning lights, changes in braking or steering, vibration, unusual noise, smells, leaks, tyre issues and door or equipment faults. If a possible safety defect develops, stop at a safe place and report it. Do not continue to the destination simply to avoid disruption.",
               "example": "A new warning appears while passengers are on board. Find a safe place to stop, secure the vehicle, protect passengers and contact the office and Engineering. Follow the defect procedure.",
               "takeaway": "Roadworthiness must be monitored for the whole duty, not just before departure."
+            },
+            {
+              "heading": "Route choice is a vehicle-suitability decision",
+              "body": "A route that is suitable for a car may be unsuitable for a coach. Consider actual vehicle height, width, length, weight, turning space, road surface, gradients, restrictions, access to the destination and a safe alternative if blocked. Check the route before departure and reassess when conditions change. Sat-nav information is an aid, not authority to ignore signs, restrictions or your knowledge of the vehicle.",
+              "example": "A diversion directs you towards a low bridge and the displayed height is close to the coach's marked height. Do not guess or rely on a sat-nav route line. Stop before the restriction and obtain a verified alternative.",
+              "takeaway": "Check the vehicle's dimensions and the route, then make a safe decision before entering a restriction."
+            },
+            {
+              "heading": "Manage space and risk around a large vehicle",
+              "body": "A coach has significant blind areas, a wide turning path and a longer stopping distance than a car. Scan well ahead, keep enough space to respond, anticipate vulnerable road users and avoid sudden manoeuvres. Reversing should be avoided or minimised where possible. If a banksman is used under the site procedure, agree signals first and stop immediately if you lose sight of them. Cameras and sensors support observation, they do not replace it.",
+              "example": "You are directed backwards into a busy yard. A pedestrian steps into the area and you lose sight of the banksman. Stop immediately, secure the vehicle and only continue when the area and communication are safe again.",
+              "takeaway": "Plan to avoid reversing. If visibility or communication is lost, stop."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "Your sat-nav directs you towards a low bridge and you cannot confirm the coach's clearance. What should you do?",
+            "options": [
+              "Approach slowly and judge it from the cab",
+              "Follow the sat-nav because it is designed for vehicles",
+              "Do not enter the restriction, verify the route and obtain a safe alternative",
+              "Ask a passenger to watch the roof"
+            ],
+            "correctIndex": 2,
+            "explanation": "The driver must verify route suitability for the actual vehicle. Sat-nav does not override a restriction."
+          }
         }
       ],
       "quiz": [
@@ -515,8 +647,31 @@
               "body": "Allow passengers time to board, sit down and stow belongings safely. Check luggage is secure and does not block aisles or exits. Do not move until doors are closed and it is safe and lawful to depart.",
               "example": "A passenger is still moving down the aisle as the departure time approaches. Wait until it is safe for them to be seated before moving.",
               "takeaway": "A timetable never justifies moving before passengers are safe."
+            },
+            {
+              "heading": "Boarding is a controlled safety activity",
+              "body": "Before opening the doors, position the coach safely, secure it and consider traffic, kerbs, slopes, weather and pedestrian movement. Keep the boarding area clear and give passengers enough time to use the steps and handrails. Watch for loose bags, children, mobility needs and people who may need extra time. Do not move until boarding is complete, passengers are safely seated or positioned as required, doors are closed and the departure is safe.",
+              "example": "At a roadside stop, passengers begin gathering beside the coach while traffic is passing close by. Do not open the doors into an unsafe situation. Reposition or contact the office for a safer arrangement.",
+              "takeaway": "Choose a safe stopping position and control the boarding process before moving."
+            },
+            {
+              "heading": "Do not let a timetable create unsafe pressure",
+              "body": "A late departure does not justify rushing people, closing doors on someone, moving before they are settled or stopping where passengers must step into danger. Give clear instructions, check that luggage is stowed safely and make sure aisles and exits remain clear. If a passenger is not ready or an issue needs resolving, pause and deal with it safely.",
+              "example": "A group is running towards the coach and one passenger is still climbing the steps as the schedule slips. Keep the vehicle secured and wait until everyone is safely aboard.",
+              "takeaway": "A safe departure is more important than recovering lost time."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "Passengers are queuing beside a busy road and the timetable is already late. What is the safest action?",
+            "options": [
+              "Open the doors quickly to clear the queue",
+              "Board passengers only when the stopping position and boarding area are safe",
+              "Tell passengers to board from the traffic side",
+              "Move the coach forward while passengers are still boarding"
+            ],
+            "correctIndex": 1,
+            "explanation": "Boarding must take place from a safe position with the vehicle secured and passengers protected from traffic."
+          }
         },
         {
           "id": "accessibility",
@@ -540,8 +695,31 @@
               "body": "Follow the vehicle and company procedure for ramps, lifts, wheelchair spaces and securement. Use equipment in line with your training. Never improvise a lifting or restraint method. If equipment or training is insufficient, pause and seek help.",
               "example": "You are unsure how to secure mobility equipment. Do not guess or copy an unfamiliar method. Stop and ask a trained colleague or manager.",
               "takeaway": "If you are unsure, pause and get help. Never improvise."
+            },
+            {
+              "heading": "Offer assistance without taking control away",
+              "body": "Ask the passenger what assistance would help and listen to the answer. Do not assume that a visible disability tells you what a person can or cannot do. Explain what you are going to do before operating equipment, respect the passenger's choices and protect their dignity. The exact legal duties depend on the type of vehicle and service, so follow the applicable requirements and Swans procedures.",
+              "example": "A passenger with limited mobility approaches the coach. Ask whether they would like help and what works best for them, rather than immediately taking their arm or moving their mobility aid.",
+              "takeaway": "Ask first, explain clearly and respect the passenger's independence."
+            },
+            {
+              "heading": "Use accessibility equipment only when competent",
+              "body": "Before using a ramp, lift or wheelchair restraint, check the equipment is serviceable and follow the vehicle-specific instructions and your training. Do not improvise a lift, alter a restraint arrangement or use damaged equipment. If the equipment is not working, the passenger cannot be accommodated safely or you are unsure, stop and contact the office for assistance and an authorised plan.",
+              "example": "A lift starts moving unevenly while a passenger is waiting. Stop using it, keep the passenger safe, report the fault and do not attempt an improvised repair.",
+              "takeaway": "Safe equipment and competent use come before convenience."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "A passenger asks for help using the lift, but it begins operating unevenly. What should you do?",
+            "options": [
+              "Continue slowly because the passenger is waiting",
+              "Ask the passenger to help operate it",
+              "Stop using the lift, keep the passenger safe and report the fault for an authorised plan",
+              "Try to adjust the mechanism yourself"
+            ],
+            "correctIndex": 2,
+            "explanation": "Do not use faulty equipment or improvise repairs. Keep the passenger safe and escalate the issue."
+          }
         }
       ],
       "quiz": [
@@ -676,8 +854,31 @@
               "body": "Plan driving, breaks and rest before the journey. Do not rely on memory or guesswork. If traffic or another delay may affect legal hours or planned rest, tell the office or responsible manager early and follow the applicable rules.",
               "example": "You can see that congestion may put the planned schedule at risk. Contact the office promptly, while safe to do so, rather than waiting until you reach a limit.",
               "takeaway": "Plan ahead and raise a potential hours problem early."
+            },
+            {
+              "heading": "The first question is which rule set applies",
+              "body": "Do not assume every passenger duty follows the same drivers' hours rules. Depending on the vehicle, service and journey, the duty may fall under assimilated rules, AETR or GB domestic rules, and exemptions or mixed duties can affect the position. The applicable rule set must be established for the work being undertaken. If you are unsure, ask the responsible manager before relying on a break or rest calculation.",
+              "example": "A driver moves between different types of passenger work during the week. They should not copy yesterday's break pattern without checking which rules apply to today's duty.",
+              "takeaway": "Identify the applicable rules before calculating driving, breaks and rest."
+            },
+            {
+              "heading": "A tachograph record must reflect what actually happened",
+              "body": "Use the correct activity mode for driving, other work, availability and break or rest. Make required manual entries accurately and check the record before leaving the vehicle. Never use a mode to make a duty look compliant if it does not describe the activity you performed. If a card or equipment problem occurs, follow the legal recording procedure and tell the office promptly.",
+              "example": "You spend time cleaning the coach before driving. That is work, not a break. Record the activity accurately rather than leaving the tachograph on rest.",
+              "takeaway": "The record must tell the truth about your working day."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "You spend 25 minutes cleaning the coach before driving. How should that activity be treated?",
+            "options": [
+              "As a break because you are not driving",
+              "As other work, accurately recorded",
+              "As rest if the vehicle engine is off",
+              "It does not need recording"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cleaning is work, not a qualifying break or rest. Activities must be recorded accurately under the applicable rules."
+          }
         },
         {
           "id": "fitness",
@@ -701,8 +902,31 @@
               "body": "Tell the appropriate manager if illness, fatigue or medication may affect your ability to drive safely. Never drive under the influence of alcohol or drugs. Follow company rules on phones, smoking, eating and other distractions.",
               "example": "A new medication makes you feel drowsy. Tell the appropriate manager and do not undertake driving if you may be unsafe.",
               "takeaway": "Be honest about fitness and remove avoidable distractions."
+            },
+            {
+              "heading": "Legal limits do not measure your personal alertness",
+              "body": "A duty can fit within the numerical drivers' hours limits and still leave a driver too tired or unwell to drive safely. Consider sleep, time awake, workload, illness, medication, stress and any change in how alert you feel. Do not wait until you are struggling to keep your eyes open. Raise the concern early so the office can consider a safe plan.",
+              "example": "You have completed the required break, but you are struggling to concentrate and repeatedly yawning. A break on paper does not prove you are fit to continue. Stop safely and report the fatigue concern.",
+              "takeaway": "Being within the hours limits does not automatically mean you are fit to drive."
+            },
+            {
+              "heading": "Medication and substances can affect driving",
+              "body": "Alcohol and illegal drugs must never be combined with driving. Some prescribed and over-the-counter medicines can also affect alertness, reaction time, judgement or vision. Read the warnings and seek advice from a pharmacist or prescriber if you are unsure. Tell the appropriate manager if a condition or medication may affect your ability to drive, using the company's confidential process.",
+              "example": "A new medicine leaflet warns that it may cause drowsiness. Do not assume it is safe because it was prescribed. Check the advice and speak to your manager before driving.",
+              "takeaway": "Check the effect of illness and medication, and do not drive if you are impaired."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "You have enough legal driving time remaining but are struggling to concentrate because of fatigue. What should you do?",
+            "options": [
+              "Continue because the legal limit has not been reached",
+              "Drink coffee and ignore it",
+              "Stop safely and raise the fitness concern with the office",
+              "Drive faster to finish before becoming more tired"
+            ],
+            "correctIndex": 2,
+            "explanation": "Legal hours compliance does not prove fitness to drive. Fatigue concerns must be acted on."
+          }
         }
       ],
       "quiz": [
@@ -837,8 +1061,31 @@
               "body": "Keep passengers together in a safe place away from moving traffic and other hazards. Do not put yourself or passengers at further risk to inspect or repair the vehicle. When safe, record factual details, witnesses and actions taken.",
               "example": "Do not stand passengers beside a coach in a hazardous location just because it is convenient. Follow the safest available arrangements.",
               "takeaway": "Passenger welfare comes first. Record facts when it is safe."
+            },
+            {
+              "heading": "Use a dynamic risk assessment, not a fixed script",
+              "body": "The safest response depends on where the vehicle has stopped, traffic, fire or other hazards, passenger needs, weather and the nature of the incident. Secure the vehicle, assess immediate danger and decide whether passengers should remain aboard or move to a safer place. Do not automatically evacuate into a more dangerous location. Follow emergency-service instructions and the vehicle or company procedure.",
+              "example": "A coach breaks down on a busy road. Moving passengers onto the carriageway could increase the danger. Assess the location, protect people and follow emergency instructions before deciding where they should wait.",
+              "takeaway": "Choose the safest option for the actual scene, not simply the quickest action."
+            },
+            {
+              "heading": "Communicate facts and protect the scene",
+              "body": "When calling for help, give the location, direction of travel, vehicle identity, number of passengers, injuries or immediate risks and what assistance is needed. Contact emergency services when required, then notify the office as soon as it is safe. Avoid speculation or blame. Preserve relevant details and witness information for the incident report, but do not put yourself or passengers at risk to gather evidence.",
+              "example": "After a collision, a passenger says another vehicle caused it. Record what you personally observed and identify witnesses, but do not argue about fault at the roadside.",
+              "takeaway": "Give accurate information, protect people and record facts when safe."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "A breakdown occurs on a busy road. Moving passengers immediately would put them close to moving traffic. What should guide your decision?",
+            "options": [
+              "Always evacuate immediately regardless of location",
+              "Keep everyone on board in every situation",
+              "Assess the actual danger, secure the vehicle and choose the safest passenger arrangements, following emergency instructions",
+              "Let passengers decide individually"
+            ],
+            "correctIndex": 2,
+            "explanation": "The safest response depends on the scene. Evacuation must not expose passengers to greater danger."
+          }
         },
         {
           "id": "fire",
@@ -868,8 +1115,31 @@
               "body": "Account for passengers where possible and report anyone missing or needing assistance. Do not attempt firefighting unless you are trained, it is safe, and the correct equipment and an escape route are available.",
               "example": "Do not attempt to fight a fire simply because an extinguisher is nearby. Your training, the conditions and a safe escape route all matter.",
               "takeaway": "Do not take risks beyond your training or the safe conditions."
+            },
+            {
+              "heading": "Evacuation depends on the danger and the vehicle",
+              "body": "A fire, smoke, fuel leak or other immediate threat may require rapid evacuation. The safest exit and assembly point depend on the vehicle, the position of the hazard and surrounding traffic. Know the exits and vehicle-specific procedure before you need them. Give short, direct instructions, guide passengers away from danger and account for people who may need assistance.",
+              "example": "Smoke is coming from the rear of the coach. Do not direct passengers towards the rear exit if that route is affected. Use the safest available exit and move everyone to a safe assembly point.",
+              "takeaway": "Choose an exit away from the hazard and move passengers to a safe location."
+            },
+            {
+              "heading": "Do not become another casualty",
+              "body": "Only attempt to use firefighting equipment if you are trained, the fire is at an early stage, the correct equipment is available and you have a clear escape route. Never delay evacuation or emergency calls to fight a fire. Do not re-enter the vehicle for belongings. Follow emergency-service directions and keep passengers away from the vehicle and traffic.",
+              "example": "A small fire appears near the engine compartment. If opening a panel would expose you to heat or smoke, do not investigate. Raise the alarm, evacuate as appropriate and keep clear.",
+              "takeaway": "Passenger safety and your own escape route come before attempting to fight a fire."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "Smoke is coming from the rear of the coach. Which evacuation decision is most appropriate?",
+            "options": [
+              "Direct everyone to the rear exit because it is closest",
+              "Use the safest available exit away from the hazard and move passengers to a safe assembly point",
+              "Let passengers collect their belongings first",
+              "Attempt to locate the source before raising the alarm"
+            ],
+            "correctIndex": 1,
+            "explanation": "The exit must be selected in light of the hazard. Do not direct passengers towards smoke or delay evacuation."
+          }
         }
       ],
       "quiz": [
@@ -1010,8 +1280,31 @@
               "body": "If a passenger is upset about a delay, stay calm, listen and explain accurately. Do not promise something you cannot authorise or compromise safety to recover time. If you are unsure how to assist a passenger safely, pause and seek help rather than improvising.",
               "example": "A passenger asks you to use an unsafe stopping place to save them a walk. Explain calmly and follow the safe arrangements.",
               "takeaway": "Be helpful, but never compromise safety or act outside your training."
+            },
+            {
+              "heading": "Decide, act and explain your reasoning",
+              "body": "Professional competence means applying knowledge to an unfamiliar situation. Before choosing an action, identify the immediate hazard, who could be harmed, what information is missing and which procedure applies. Then choose the safest action and explain why alternatives are unsafe. In practice, a strong driver can explain the decision, not just repeat a rule.",
+              "example": "A warning appears, a passenger is upset and the coach is blocking a narrow road. Separate the immediate safety decision from the customer-service issue, deal with the hazard first and communicate the plan.",
+              "takeaway": "A good decision is safe, proportionate and explainable."
+            },
+            {
+              "heading": "Learn from near misses and changing conditions",
+              "body": "A near miss is useful information, not something to dismiss because nobody was injured. Think about what changed, what control failed or was missing and what would prevent a repeat. Report hazards through the company process. Be prepared to change a plan when weather, traffic, passenger behaviour, vehicle condition or site access makes the original plan unsafe.",
+              "example": "You avoid a collision with a cyclist because you spotted them late in a blind area. Report the concern and reflect on positioning, mirror checks and the conditions that made the cyclist difficult to see.",
+              "takeaway": "Use near misses and changing conditions to improve future decisions."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "You avoid a collision with a cyclist in a blind area. Nobody is injured and the coach is undamaged. What should you do next?",
+            "options": [
+              "Forget it because there was no collision",
+              "Report the near miss through the company process and consider what controls could prevent a repeat",
+              "Only mention it if a passenger complains",
+              "Post about it on social media to warn other drivers"
+            ],
+            "correctIndex": 1,
+            "explanation": "Near misses provide information that can help prevent future incidents and should be reported through the appropriate process."
+          }
         },
         {
           "id": "knowledge",
@@ -1041,8 +1334,31 @@
               "body": "Record the topics covered, practical checks required, actions outstanding, knowledge outcome, practical assessment outcome and review date. A driver signature confirms attendance or discussion. It does not replace a competent practical assessment or manager review.",
               "example": "Passing the online quiz does not prove a driver can complete a walkaround or safely manoeuvre a coach. Those practical skills still need appropriate assessment.",
               "takeaway": "Online learning supports training, it does not replace practical competence checks."
+            },
+            {
+              "heading": "Assessment should prove understanding, not guessing",
+              "body": "A good answer identifies the safest and most appropriate action for the facts in the scenario. Read the whole question, identify the risk and consider what the driver is authorised and competent to do. If you get an answer wrong, review the explanation and return to the relevant lesson. Repeating guesses is not evidence of understanding.",
+              "example": "If a question asks what to do after a critical defect warning, focus on the actual decision required, not on which answer sounds most convenient for the timetable.",
+              "takeaway": "Understand why an answer is right before attempting the assessment again."
+            },
+            {
+              "heading": "Online completion does not replace practical competence",
+              "body": "This portal supports company induction and refresher learning. It does not by itself prove that a driver can physically inspect a vehicle, operate a lift, use a wheelchair restraint, reverse safely or respond competently in an emergency. Practical skills must be checked by an appropriately competent person and recorded separately under company arrangements.",
+              "example": "A driver achieves 100% on the walkaround quiz. They still need to demonstrate a proper physical check on the actual vehicle type and understand how to report a defect in Freeway.",
+              "takeaway": "Knowledge checks and practical assessments are separate parts of competence."
             }
-          ]
+          ],
+          "scenario": {
+            "question": "A driver scores 100% on the online walkaround quiz. What does this prove?",
+            "options": [
+              "They are fully competent to inspect every coach in the fleet",
+              "They can return any vehicle to service after reporting a defect",
+              "They have passed the knowledge check, but practical competence still needs separate assessment",
+              "No further training or supervision is required"
+            ],
+            "correctIndex": 2,
+            "explanation": "Online knowledge assessment does not replace a practical walkaround or competent assessment of vehicle-specific skills."
+          }
         }
       ],
       "quiz": [
