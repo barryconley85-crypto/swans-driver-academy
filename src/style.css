@@ -32,3 +32,5 @@
 .module-assessment-entry .btn{white-space:nowrap;min-height:46px}
 .module-assessment-entry .btn:disabled{opacity:.55;cursor:not-allowed}
 @media(max-width:580px){.module-assessment-entry{align-items:stretch;flex-direction:column;padding:14px}.module-assessment-entry .btn{width:100%;justify-content:center}}
+
+.lesson-remaining{display:block;margin-top:5px;color:#138b96;font-size:12px;font-weight:700;letter-spacing:.1px}
