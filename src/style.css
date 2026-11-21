@@ -34,3 +34,5 @@
 @media(max-width:580px){.module-assessment-entry{align-items:stretch;flex-direction:column;padding:14px}.module-assessment-entry .btn{width:100%;justify-content:center}}
 
 .lesson-remaining{display:block;margin-top:5px;color:#138b96;font-size:12px;font-weight:700;letter-spacing:.1px}
+
+#lesson-content-start{scroll-margin-top:18px}
