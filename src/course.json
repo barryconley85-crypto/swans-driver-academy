@@ -1359,18 +1359,7 @@
                 "explanation": "Do not improvise lifting, ramp or restraint methods. Pause and obtain competent assistance or an authorised plan."
               }
             }
-          ],
-          "scenario": {
-            "question": "You avoid a collision with a cyclist in a blind area. Nobody is injured and the coach is undamaged. What should you do next?",
-            "options": [
-              "Forget it because there was no collision",
-              "Report the near miss through the company process and consider what controls could prevent a repeat",
-              "Only mention it if a passenger complains",
-              "Post about it on social media to warn other drivers"
-            ],
-            "correctIndex": 1,
-            "explanation": "Near misses provide information that can help prevent future incidents and should be reported through the appropriate process."
-          }
+          ]
         },
         {
           "id": "knowledge",
