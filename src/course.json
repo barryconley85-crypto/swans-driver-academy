@@ -1,1 +1,755 @@
-{"modules":[{"id":"professional-standards","title":"1. Professional Standards","lessons":[{"id":"standards","title":"Professional standards and communication","content":["Arrive punctual, prepared, fit for duty and professionally presented.","Remain polite, calm and respectful with passengers, colleagues and clients.","Never use a handheld phone while driving. Protect passenger information and photographs.","Confirm job details, route and passenger needs. Communicate delays, route changes and concerns promptly."]},{"id":"end-of-job","title":"End-of-job responsibilities","content":["Park in an authorised, safe location and secure the vehicle.","Check the saloon for passengers, belongings, damage and cleanliness.","Report lost property through company process and complete job, mileage, defect and incident records."]}]},{"id":"vehicle-safety","title":"2. Vehicle & Journey Safety","lessons":[{"id":"walkaround","title":"Vehicle walkaround checks","content":["Check tyres, wheels, lights, mirrors, windows, wipers, bodywork and registration plates.","Check doors, exits, steps, handrails, seat belts, passenger areas and safety equipment.","Record defects accurately. Do not take an unroadworthy vehicle into service."]},{"id":"defects","title":"Defects and vehicle fitness","content":["Do not ignore warning lights, unusual noises, vibration, tyre damage or door faults.","Report the vehicle ID, time, symptoms and location through the defect process.","Await authorisation before using a vehicle with a reported defect."]},{"id":"journey","title":"Journey planning and safe driving","content":["Check the job sheet, route suitability, vehicle dimensions, height, weight and access restrictions.","Allow time for traffic, boarding, stops, parking, weather and roadworks.","Sat-nav is an aid, not the decision-maker. Never ignore a restriction."]}]},{"id":"passenger-experience","title":"3. Passenger Experience","lessons":[{"id":"boarding","title":"Safe boarding and alighting","content":["Stop in a safe, authorised location and secure the vehicle before opening doors.","Keep steps, doors and pavement areas clear. Allow passengers time to sit down.","Secure luggage and keep aisles and exits unobstructed. Do not move until safe and lawful."]},{"id":"accessibility","title":"Accessibility and additional needs","content":["Treat every passenger with dignity, patience and respect.","Ask what assistance is helpful rather than making assumptions.","Follow procedures for ramps, lifts, wheelchair spaces and securement. Never improvise lifting or restraint methods."]}]},{"id":"legal-responsibilities","title":"4. Legal Responsibilities","lessons":[{"id":"hours","title":"Drivers’ hours and tachographs","content":["Know which drivers’ hours rules apply to the operation, including domestic, assimilated or AETR rules where relevant.","Use the tachograph correctly and make accurate mode and activity entries.","Plan driving, breaks and rest. Never manipulate, falsify or conceal records.","Tell the office early if delays threaten legal hours or planned rest."]},{"id":"fitness","title":"Fitness for duty","content":["Start work fit, alert and able to carry out the duty safely.","Tell the appropriate manager if illness, fatigue or medication may affect safe driving.","Never drive under the influence of alcohol or drugs. Follow company rules on phones and distractions."]}]},{"id":"emergencies","title":"5. Emergencies","lessons":[{"id":"incident","title":"Breakdown, collision or serious incident","content":["Stop in the safest available place, secure the vehicle and assess immediate danger.","Contact emergency services where required and follow the company emergency procedure.","Keep passengers in a safe place away from moving traffic. Record factual details when safe."]},{"id":"fire","title":"Fire and evacuation","content":["Know the location and operation of emergency exits and vehicle safety equipment.","Give passengers clear instructions and direct them to a safe assembly point away from traffic.","Do not re-enter a vehicle or attempt firefighting unless trained and it is safe to do so."]}]},{"id":"assessment","title":"6. Assessment","lessons":[{"id":"scenarios","title":"Practical scenarios","content":["A warning light appears while carrying passengers. Stop safely, assess the risk and follow the company procedure.","A sat-nav suggests a shortcut with an uncertain height restriction. Do not proceed until the route is verified.","If you lose sight of a banksman while reversing, stop immediately.","If delays may affect legal hours, contact the office or responsible manager promptly."]},{"id":"knowledge","title":"Knowledge check and sign-off","content":["Complete the knowledge check and discuss any incorrect answers with the trainer.","A signature confirms attendance and discussion. It does not replace a competent practical assessment.","Record topics covered, actions outstanding, knowledge outcome, practical assessment outcome and review date."]}]}],"assessment":{"passMarkPercent":80,"attemptsAllowed":3,"questions":[]}}
+{
+  "modules": [
+    {
+      "id": "professional-standards",
+      "title": "1. Professional Standards",
+      "lessons": [
+        {
+          "id": "standards",
+          "title": "Professional standards and communication",
+          "content": [
+            "Arrive punctual, prepared, fit for duty and professionally presented.",
+            "Remain polite, calm and respectful with passengers, colleagues and clients.",
+            "Never use a handheld phone while driving. Protect passenger information and photographs.",
+            "Confirm job details, route and passenger needs. Communicate delays, route changes and concerns promptly."
+          ]
+        },
+        {
+          "id": "end-of-job",
+          "title": "End-of-job responsibilities",
+          "content": [
+            "Park in an authorised, safe location and secure the vehicle.",
+            "Check the saloon for passengers, belongings, damage and cleanliness.",
+            "Report lost property through company process and complete job, mileage, defect and incident records."
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "professional-standards-q1",
+          "question": "Before starting a duty, what should a driver confirm?",
+          "options": [
+            "Only the destination",
+            "The job details, timings, route and passenger requirements",
+            "Only the vehicle registration",
+            "Nothing if the route is familiar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Confirm the full job information and any special instructions before departure."
+        },
+        {
+          "id": "professional-standards-q2",
+          "question": "A passenger becomes argumentative. What is the professional response?",
+          "options": [
+            "Argue back",
+            "Ignore any safety concern",
+            "Stay calm, avoid arguing, keep people safe and contact the office if needed",
+            "Ask another passenger to deal with it"
+          ],
+          "correctIndex": 2,
+          "explanation": "Remain calm and professional. If the situation becomes difficult, prioritise safety and contact the office."
+        },
+        {
+          "id": "professional-standards-q3",
+          "question": "When should a driver report a significant delay or route problem?",
+          "options": [
+            "At the end of the shift only",
+            "Promptly during the journey when safe to do so",
+            "Only if a passenger complains",
+            "Only after reaching the depot"
+          ],
+          "correctIndex": 1,
+          "explanation": "The office needs timely information to manage the service and communicate changes."
+        },
+        {
+          "id": "professional-standards-q4",
+          "question": "Which statement about handheld phones is correct?",
+          "options": [
+            "Use it briefly at traffic lights",
+            "Use it if the road is quiet",
+            "Do not use a handheld phone while driving",
+            "Use it for navigation while moving"
+          ],
+          "correctIndex": 2,
+          "explanation": "The training material states that drivers must not use a handheld phone while driving."
+        },
+        {
+          "id": "professional-standards-q5",
+          "question": "How should passenger information and photographs be handled?",
+          "options": [
+            "Share useful photos in personal group chats",
+            "Post passenger details online if names are hidden",
+            "Keep them private and do not share without permission",
+            "Send them to friends for advice"
+          ],
+          "correctIndex": 2,
+          "explanation": "Passenger information and photographs must be protected."
+        },
+        {
+          "id": "professional-standards-q6",
+          "question": "What should be checked before the journey if a passenger has specific requirements?",
+          "options": [
+            "Assume the previous driver handled it",
+            "Wait until the passenger complains",
+            "Confirm the requirements and any special instructions",
+            "Ask other passengers to decide"
+          ],
+          "correctIndex": 2,
+          "explanation": "Check passenger needs and special instructions before departure."
+        },
+        {
+          "id": "professional-standards-q7",
+          "question": "What should happen at the end of a job?",
+          "options": [
+            "Leave without telling anyone",
+            "Report completion, incidents, lost property, defects and customer concerns",
+            "Only report if the vehicle is damaged",
+            "Keep lost property until next shift"
+          ],
+          "correctIndex": 1,
+          "explanation": "The office should receive completion information and any follow-up issues."
+        },
+        {
+          "id": "professional-standards-q8",
+          "question": "Where should a coach be parked at the end of a job?",
+          "options": [
+            "Anywhere convenient",
+            "In a passenger loading area",
+            "In an authorised, safe location, secured as instructed",
+            "On the roadside with keys inside"
+          ],
+          "correctIndex": 2,
+          "explanation": "Park safely in an authorised place and secure the vehicle."
+        }
+      ]
+    },
+    {
+      "id": "vehicle-safety",
+      "title": "2. Vehicle & Journey Safety",
+      "lessons": [
+        {
+          "id": "walkaround",
+          "title": "Vehicle walkaround checks",
+          "content": [
+            "Check tyres, wheels, lights, mirrors, windows, wipers, bodywork and registration plates.",
+            "Check doors, exits, steps, handrails, seat belts, passenger areas and safety equipment.",
+            "Record defects accurately. Do not take an unroadworthy vehicle into service."
+          ]
+        },
+        {
+          "id": "defects",
+          "title": "Defects and vehicle fitness",
+          "content": [
+            "Do not ignore warning lights, unusual noises, vibration, tyre damage or door faults.",
+            "Report the vehicle ID, time, symptoms and location through the defect process.",
+            "Await authorisation before using a vehicle with a reported defect."
+          ]
+        },
+        {
+          "id": "journey",
+          "title": "Journey planning and safe driving",
+          "content": [
+            "Check the job sheet, route suitability, vehicle dimensions, height, weight and access restrictions.",
+            "Allow time for traffic, boarding, stops, parking, weather and roadworks.",
+            "Sat-nav is an aid, not the decision-maker. Never ignore a restriction."
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "vehicle-safety-q1",
+          "question": "Which items are part of the daily walkaround?",
+          "options": [
+            "Only tyres and fuel",
+            "Tyres, wheels, lights, mirrors, windows, wipers and bodywork",
+            "Only the passenger seats",
+            "Only dashboard warning lights"
+          ],
+          "correctIndex": 1,
+          "explanation": "The walkaround includes the vehicle exterior and key safety components."
+        },
+        {
+          "id": "vehicle-safety-q2",
+          "question": "What should you do if you find a safety-critical defect before departure?",
+          "options": [
+            "Drive slowly to the depot",
+            "Ignore it if the vehicle feels normal",
+            "Do not use the vehicle, report and record it, then wait for clearance",
+            "Ask a passenger whether it looks serious"
+          ],
+          "correctIndex": 2,
+          "explanation": "A vehicle with a safety-critical defect must not be used until properly cleared."
+        },
+        {
+          "id": "vehicle-safety-q3",
+          "question": "What details should be included when reporting a defect?",
+          "options": [
+            "Only the driver's name",
+            "Vehicle ID, time, exact symptoms and location",
+            "Only a photograph",
+            "Only the mileage"
+          ],
+          "correctIndex": 1,
+          "explanation": "These details help identify and investigate the defect."
+        },
+        {
+          "id": "vehicle-safety-q4",
+          "question": "What is the correct approach to a sat-nav route with a height restriction?",
+          "options": [
+            "Follow it because it is designed for vehicles",
+            "Try it slowly",
+            "Do not follow it into a restriction, verify a suitable route",
+            "Ask passengers to watch the roof"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sat-nav is an aid, not the decision-maker. Never follow it into a restriction."
+        },
+        {
+          "id": "vehicle-safety-q5",
+          "question": "What should a driver do if they lose sight of a banksman while reversing?",
+          "options": [
+            "Continue slowly",
+            "Use the camera and continue",
+            "Stop immediately",
+            "Sound the horn and continue"
+          ],
+          "correctIndex": 2,
+          "explanation": "Stop if visual contact or communication is lost. Do not guess."
+        },
+        {
+          "id": "vehicle-safety-q6",
+          "question": "Which approach best describes defensive driving?",
+          "options": [
+            "Drive close to save space",
+            "Maintain space, match speed to conditions and scan ahead",
+            "Focus only on the vehicle immediately ahead",
+            "Keep to the timetable regardless of conditions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Space, speed and scan are the defensive driving principles in the training."
+        },
+        {
+          "id": "vehicle-safety-q7",
+          "question": "What should be checked in the passenger area?",
+          "options": [
+            "Only seat covers",
+            "Seats, belts, aisle, steps, handrails, luggage and unobstructed exits",
+            "Only heating controls",
+            "Only windows"
+          ],
+          "correctIndex": 1,
+          "explanation": "The passenger area must be clean, safe and free of obstructions."
+        },
+        {
+          "id": "vehicle-safety-q8",
+          "question": "What should happen if a safety-critical defect develops while carrying passengers?",
+          "options": [
+            "Continue to the destination",
+            "Stop in a safe place and contact the office",
+            "Ask passengers to inspect it",
+            "Wait until the next scheduled break"
+          ],
+          "correctIndex": 1,
+          "explanation": "Stop safely and contact the office, following the defect procedure."
+        }
+      ]
+    },
+    {
+      "id": "passenger-experience",
+      "title": "3. Passenger Experience",
+      "lessons": [
+        {
+          "id": "boarding",
+          "title": "Safe boarding and alighting",
+          "content": [
+            "Stop in a safe, authorised location and secure the vehicle before opening doors.",
+            "Keep steps, doors and pavement areas clear. Allow passengers time to sit down.",
+            "Secure luggage and keep aisles and exits unobstructed. Do not move until safe and lawful."
+          ]
+        },
+        {
+          "id": "accessibility",
+          "title": "Accessibility and additional needs",
+          "content": [
+            "Treat every passenger with dignity, patience and respect.",
+            "Ask what assistance is helpful rather than making assumptions.",
+            "Follow procedures for ramps, lifts, wheelchair spaces and securement. Never improvise lifting or restraint methods."
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "passenger-experience-q1",
+          "question": "When should the vehicle doors be opened for boarding?",
+          "options": [
+            "While still moving slowly",
+            "After stopping in a safe authorised place and securing the vehicle",
+            "As passengers approach",
+            "Before the vehicle has stopped"
+          ],
+          "correctIndex": 1,
+          "explanation": "Stop safely and secure the vehicle before opening doors."
+        },
+        {
+          "id": "passenger-experience-q2",
+          "question": "Before moving away after boarding, what should the driver ensure?",
+          "options": [
+            "All passengers are standing",
+            "Passengers have time to sit, luggage is secure and doors are closed",
+            "The timetable is being met",
+            "The saloon lights are off"
+          ],
+          "correctIndex": 1,
+          "explanation": "Allow passengers to sit and secure luggage before moving."
+        },
+        {
+          "id": "passenger-experience-q3",
+          "question": "How should a driver establish what assistance a passenger needs?",
+          "options": [
+            "Assume based on appearance",
+            "Ask another passenger",
+            "Ask the passenger what assistance would be helpful",
+            "Avoid offering any assistance"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ask rather than make assumptions, treating passengers with dignity."
+        },
+        {
+          "id": "passenger-experience-q4",
+          "question": "What should a driver do if unsure how to use a ramp or securement equipment safely?",
+          "options": [
+            "Try a method they remember seeing",
+            "Ask the passenger to work it out",
+            "Pause and seek help, do not improvise",
+            "Skip the procedure"
+          ],
+          "correctIndex": 2,
+          "explanation": "Follow training and company procedures. Never improvise lifting or restraint methods."
+        },
+        {
+          "id": "passenger-experience-q5",
+          "question": "A passenger complains about a delay. What is the best response?",
+          "options": [
+            "Argue about the timetable",
+            "Promise compensation without authority",
+            "Listen, explain accurately and escalate the issue when needed",
+            "Ignore the passenger"
+          ],
+          "correctIndex": 2,
+          "explanation": "Listen, explain what you know and contact the office about complaints or welfare concerns."
+        },
+        {
+          "id": "passenger-experience-q6",
+          "question": "Should passenger safety be compromised to keep to a timetable?",
+          "options": [
+            "Yes, if the delay is significant",
+            "Only on private hire",
+            "No, safety comes first",
+            "Only if passengers agree"
+          ],
+          "correctIndex": 2,
+          "explanation": "The training is clear that safety and legal compliance come before the timetable."
+        },
+        {
+          "id": "passenger-experience-q7",
+          "question": "How should luggage be placed?",
+          "options": [
+            "In front of emergency exits",
+            "Securely, without blocking aisles or exits",
+            "On steps if there is no room",
+            "Anywhere it fits"
+          ],
+          "correctIndex": 1,
+          "explanation": "Luggage must be secure and must not obstruct aisles or exits."
+        },
+        {
+          "id": "passenger-experience-q8",
+          "question": "What is the correct way to treat passengers with additional needs?",
+          "options": [
+            "Make decisions without asking",
+            "With dignity, patience and respect, asking what help is useful",
+            "Avoid speaking to them",
+            "Ask other passengers to assist without consent"
+          ],
+          "correctIndex": 1,
+          "explanation": "Treat every passenger with dignity and ask what assistance is helpful."
+        }
+      ]
+    },
+    {
+      "id": "legal-responsibilities",
+      "title": "4. Legal Responsibilities",
+      "lessons": [
+        {
+          "id": "hours",
+          "title": "Drivers’ hours and tachographs",
+          "content": [
+            "Know which drivers’ hours rules apply to the operation, including domestic, assimilated or AETR rules where relevant.",
+            "Use the tachograph correctly and make accurate mode and activity entries.",
+            "Plan driving, breaks and rest. Never manipulate, falsify or conceal records.",
+            "Tell the office early if delays threaten legal hours or planned rest."
+          ]
+        },
+        {
+          "id": "fitness",
+          "title": "Fitness for duty",
+          "content": [
+            "Start work fit, alert and able to carry out the duty safely.",
+            "Tell the appropriate manager if illness, fatigue or medication may affect safe driving.",
+            "Never drive under the influence of alcohol or drugs. Follow company rules on phones and distractions."
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "legal-responsibilities-q1",
+          "question": "What must a driver know about drivers’ hours rules?",
+          "options": [
+            "Only the rules used on the last job",
+            "Which rules apply to the specific operation",
+            "Only the rules for local journeys",
+            "The rules do not change by operation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Domestic, assimilated and AETR rules may differ, so identify the rules for the duty."
+        },
+        {
+          "id": "legal-responsibilities-q2",
+          "question": "How should tachograph activity entries be made?",
+          "options": [
+            "Only when asked by a manager",
+            "Accurately, using the correct mode and activity",
+            "At the end of the week from memory",
+            "Use whichever mode is quickest"
+          ],
+          "correctIndex": 1,
+          "explanation": "The tachograph must be used correctly with accurate mode and activity entries."
+        },
+        {
+          "id": "legal-responsibilities-q3",
+          "question": "What should a driver do if traffic delays may affect legal hours or planned rest?",
+          "options": [
+            "Wait until the limit is reached",
+            "Tell the office early and follow the applicable rules",
+            "Continue and explain later",
+            "Change the tachograph record"
+          ],
+          "correctIndex": 1,
+          "explanation": "Raise the issue early so the operation can be managed safely and legally."
+        },
+        {
+          "id": "legal-responsibilities-q4",
+          "question": "Which action is prohibited?",
+          "options": [
+            "Planning breaks",
+            "Making accurate entries",
+            "Manipulating, falsifying or concealing tachograph records",
+            "Checking which rules apply"
+          ],
+          "correctIndex": 2,
+          "explanation": "Records must not be manipulated, falsified or concealed."
+        },
+        {
+          "id": "legal-responsibilities-q5",
+          "question": "What should a driver do if medication may affect safe driving?",
+          "options": [
+            "Say nothing",
+            "Take extra care but do not tell anyone",
+            "Tell the appropriate manager",
+            "Drive until symptoms become severe"
+          ],
+          "correctIndex": 2,
+          "explanation": "Drivers should raise illness, fatigue or medication concerns that may affect safety."
+        },
+        {
+          "id": "legal-responsibilities-q6",
+          "question": "Which statement about alcohol and drugs is correct?",
+          "options": [
+            "It is acceptable after a long rest",
+            "Only illegal drugs are prohibited",
+            "Never drive under their influence",
+            "It is acceptable if the route is short"
+          ],
+          "correctIndex": 2,
+          "explanation": "The training states never drive under the influence of alcohol or drugs."
+        },
+        {
+          "id": "legal-responsibilities-q7",
+          "question": "What should be planned before a journey?",
+          "options": [
+            "Only fuel stops",
+            "Driving, breaks and rest, using the rules that apply",
+            "Only passenger collection times",
+            "Nothing if the job is familiar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plan driving, breaks and rest rather than relying on memory or guesswork."
+        },
+        {
+          "id": "legal-responsibilities-q8",
+          "question": "What takes priority if a timetable conflicts with legal compliance?",
+          "options": [
+            "The timetable",
+            "Passenger pressure",
+            "Legal compliance and safety",
+            "The driver's preferred arrival time"
+          ],
+          "correctIndex": 2,
+          "explanation": "Safety and legal compliance come before keeping to a timetable."
+        }
+      ]
+    },
+    {
+      "id": "emergencies",
+      "title": "5. Emergencies",
+      "lessons": [
+        {
+          "id": "incident",
+          "title": "Breakdown, collision or serious incident",
+          "content": [
+            "Stop in the safest available place, secure the vehicle and assess immediate danger.",
+            "Contact emergency services where required and follow the company emergency procedure.",
+            "Keep passengers in a safe place away from moving traffic. Record factual details when safe."
+          ]
+        },
+        {
+          "id": "fire",
+          "title": "Fire and evacuation",
+          "content": [
+            "Know the location and operation of emergency exits and vehicle safety equipment.",
+            "Give passengers clear instructions and direct them to a safe assembly point away from traffic.",
+            "Do not re-enter a vehicle or attempt firefighting unless trained and it is safe to do so."
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "emergencies-q1",
+          "question": "What is the first priority after a breakdown or serious incident?",
+          "options": [
+            "Call the depot while still moving",
+            "Unload passengers immediately into traffic",
+            "Stop in the safest available place, secure the vehicle and assess immediate danger",
+            "Inspect the engine before checking passengers"
+          ],
+          "correctIndex": 2,
+          "explanation": "First make the situation as safe as possible and assess immediate danger."
+        },
+        {
+          "id": "emergencies-q2",
+          "question": "When should emergency services be contacted?",
+          "options": [
+            "Only after the office gives permission",
+            "Where required by the situation",
+            "Only if another driver asks",
+            "Never, the office handles everything"
+          ],
+          "correctIndex": 1,
+          "explanation": "Contact emergency services where required and give clear location and incident details."
+        },
+        {
+          "id": "emergencies-q3",
+          "question": "Where should passengers be kept after an incident?",
+          "options": [
+            "Beside the coach on the carriageway",
+            "Together in a safe place away from moving traffic and hazards",
+            "Free to walk around the scene",
+            "Inside the vehicle regardless of danger"
+          ],
+          "correctIndex": 1,
+          "explanation": "Keep passengers together and away from traffic or other hazards."
+        },
+        {
+          "id": "emergencies-q4",
+          "question": "What should a driver do before attempting to inspect or repair a damaged vehicle?",
+          "options": [
+            "Attempt a repair immediately",
+            "Ask passengers to help",
+            "Avoid any action that puts themselves or passengers at further risk",
+            "Stand in the live carriageway to inspect it"
+          ],
+          "correctIndex": 2,
+          "explanation": "Do not create further risk while inspecting or repairing a vehicle."
+        },
+        {
+          "id": "emergencies-q5",
+          "question": "What instructions should be given during an evacuation?",
+          "options": [
+            "Long explanations before moving",
+            "Short, clear instructions directing passengers to a safe assembly point",
+            "Tell passengers to collect their belongings first",
+            "Let passengers choose any direction"
+          ],
+          "correctIndex": 1,
+          "explanation": "Give clear instructions and move people to a safe assembly point away from traffic."
+        },
+        {
+          "id": "emergencies-q6",
+          "question": "Should anyone re-enter a vehicle to retrieve belongings when there is danger?",
+          "options": [
+            "Yes, if belongings are valuable",
+            "Only if the passenger asks",
+            "No",
+            "Only after the driver has left"
+          ],
+          "correctIndex": 2,
+          "explanation": "Do not re-enter a vehicle or retrieve belongings if there is danger."
+        },
+        {
+          "id": "emergencies-q7",
+          "question": "When may a driver attempt firefighting?",
+          "options": [
+            "Whenever a fire is small",
+            "Only if trained, it is safe and correct equipment and an escape route are available",
+            "If passengers ask",
+            "Before raising the alarm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Firefighting is conditional on training, safety, suitable equipment and an escape route."
+        },
+        {
+          "id": "emergencies-q8",
+          "question": "What should be recorded after an incident when it is safe to do so?",
+          "options": [
+            "Opinions and blame",
+            "Only the vehicle registration",
+            "Factual details, witnesses and actions taken",
+            "Nothing if emergency services attended"
+          ],
+          "correctIndex": 2,
+          "explanation": "Record factual details, witnesses and actions taken when safe."
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "title": "6. Assessment",
+      "lessons": [
+        {
+          "id": "scenarios",
+          "title": "Practical scenarios",
+          "content": [
+            "A warning light appears while carrying passengers. Stop safely, assess the risk and follow the company procedure.",
+            "A sat-nav suggests a shortcut with an uncertain height restriction. Do not proceed until the route is verified.",
+            "If you lose sight of a banksman while reversing, stop immediately.",
+            "If delays may affect legal hours, contact the office or responsible manager promptly."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "title": "Knowledge check and sign-off",
+          "content": [
+            "Complete the knowledge check and discuss any incorrect answers with the trainer.",
+            "A signature confirms attendance and discussion. It does not replace a competent practical assessment.",
+            "Record topics covered, actions outstanding, knowledge outcome, practical assessment outcome and review date."
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "assessment-q1",
+          "question": "A new warning light appears while carrying passengers. What should the driver do?",
+          "options": [
+            "Continue to the destination",
+            "Stop in a safe place, assess the risk and follow the defect procedure",
+            "Switch off the display",
+            "Ask passengers to decide"
+          ],
+          "correctIndex": 1,
+          "explanation": "Treat a new warning as a potential defect, stop safely and follow the company procedure."
+        },
+        {
+          "id": "assessment-q2",
+          "question": "A sat-nav suggests a shortcut but the height restriction is uncertain. What is the correct decision?",
+          "options": [
+            "Follow the sat-nav slowly",
+            "Ask a passenger to check the bridge",
+            "Do not proceed until the route and restriction are verified",
+            "Try the route if no other traffic is present"
+          ],
+          "correctIndex": 2,
+          "explanation": "Never follow sat-nav into an unverified height or weight restriction."
+        },
+        {
+          "id": "assessment-q3",
+          "question": "You lose sight of the banksman while reversing. What do you do?",
+          "options": [
+            "Continue slowly",
+            "Stop immediately and re-establish safe communication",
+            "Rely on the reversing camera",
+            "Sound the horn and continue"
+          ],
+          "correctIndex": 1,
+          "explanation": "Stop immediately if visual contact or communication is lost."
+        },
+        {
+          "id": "assessment-q4",
+          "question": "Traffic delays may affect your legal hours. What should happen next?",
+          "options": [
+            "Keep driving and report it later",
+            "Alter the tachograph entry",
+            "Contact the office or responsible manager promptly",
+            "Ignore the issue if passengers are waiting"
+          ],
+          "correctIndex": 2,
+          "explanation": "Raise the issue early and follow the rules that apply to the duty."
+        },
+        {
+          "id": "assessment-q5",
+          "question": "A passenger is angry about a delay. What should you prioritise?",
+          "options": [
+            "Promise an arrival time you cannot guarantee",
+            "Argue that the delay is not your fault",
+            "Stay calm, explain accurately and never compromise safety",
+            "Drive faster to recover time"
+          ],
+          "correctIndex": 2,
+          "explanation": "Listen and explain accurately, but never put passenger safety at risk."
+        },
+        {
+          "id": "assessment-q6",
+          "question": "You are unsure how to assist a passenger safely. What should you do?",
+          "options": [
+            "Try a lifting method you have seen before",
+            "Ask another passenger to lift them",
+            "Pause and seek help rather than improvising",
+            "Ignore the request"
+          ],
+          "correctIndex": 2,
+          "explanation": "Do not improvise lifting or restraint methods. Seek help if unsure."
+        },
+        {
+          "id": "assessment-q7",
+          "question": "What does a driver signature on the training record confirm?",
+          "options": [
+            "That the driver is competent in every task",
+            "Attendance and discussion, not a substitute for practical assessment",
+            "That no further training is needed",
+            "That the manager has completed the assessment"
+          ],
+          "correctIndex": 1,
+          "explanation": "The source presentation explicitly says a signature does not replace competent practical assessment."
+        },
+        {
+          "id": "assessment-q8",
+          "question": "What should happen if a knowledge check is not passed?",
+          "options": [
+            "Mark the module complete anyway",
+            "Remove the incorrect questions",
+            "Further coaching and another attempt before module completion",
+            "Sign off the driver without review"
+          ],
+          "correctIndex": 2,
+          "explanation": "A failed assessment means the driver needs to revisit the material and demonstrate the required knowledge."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "passMarkPercent": 100,
+    "attemptsAllowed": 0,
+    "questionsPerModule": 8,
+    "retakes": "unlimited",
+    "completionRule": "Every module quiz must score 100% before the module can be marked complete."
+  }
+}
