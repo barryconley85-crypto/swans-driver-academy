@@ -36,3 +36,22 @@
 .lesson-remaining{display:block;margin-top:5px;color:#138b96;font-size:12px;font-weight:700;letter-spacing:.1px}
 
 #lesson-content-start{scroll-margin-top:18px}
+
+/* Richer module selection and applied learning */
+.module-card-focus{margin:10px 0 12px;padding:10px 11px;border-radius:9px;background:#f0f6f8;color:#345363;font-size:11px;line-height:1.55;font-weight:600}
+.module-card-challenge{display:flex;flex-direction:column;gap:4px;margin:10px 0;padding:11px 12px;border-left:3px solid #15939c;background:#f2faf9;border-radius:0 9px 9px 0}
+.module-card-challenge b{font-size:9px;letter-spacing:1.2px;color:#11858e}
+.module-card-challenge span{font-size:11px;line-height:1.45;color:#284957}
+.module-challenge{margin-top:18px;padding:16px 18px;border:1px solid #d6e8eb;border-radius:13px;background:#f5fafb}
+.module-challenge>b{color:#12394b;font-size:14px}
+.module-challenge>p{margin:6px 0 13px;color:#385665;font-size:13px;line-height:1.6}
+.module-reference-links{display:flex;flex-direction:column;gap:8px;padding-top:12px;border-top:1px solid #dce9ec}
+.module-reference-links>b{font-size:11px;color:#526b77;margin-bottom:2px}
+.module-reference-links a{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#087e8b;font-size:12px;font-weight:700;text-decoration:none}
+.module-reference-links a:hover{text-decoration:underline}
+.scenario{margin:22px 0;padding:20px;border:1px solid #c9e2e7;border-radius:16px;background:linear-gradient(135deg,#f1f9fa,#fff)}
+.scenario h3{font-size:18px;line-height:1.45;color:#15394b}
+.scenario-intro{font-size:13px;color:#5b707a}
+.scenario .answers button{min-height:54px;text-align:left}
+.scenario .answer-feedback{margin-top:13px}
+@media(max-width:580px){.module-card-focus{font-size:10px}.module-card-challenge{padding:9px}.module-challenge{padding:13px}.scenario{padding:14px}.scenario h3{font-size:16px}}
