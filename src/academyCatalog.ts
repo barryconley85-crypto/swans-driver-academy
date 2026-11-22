@@ -45,3 +45,18 @@ export const academyKnowledgeChecks:Record<string,AcademyKnowledgeCheck>={
 "remedial-learning":{question:"What makes a remedial assignment effective?",options:["Assign any available course","Match learning to the identified risk and verify improvement appropriately","Use it automatically as a disciplinary penalty","Close the incident without follow-up"],best:1,feedback:"Training should be relevant, proportionate and linked to a clear learning objective."}
 };
 export const academyMediaPrinciples=["Use short, chaptered videos with pause, rewind and captions where available","Follow each video with a decision or spot-the-hazard activity","Use real Swans procedures and coach-specific examples wherever possible","Never count a video view alone as proof of competence"];
+
+academyCourses.find(c=>c.id==="accessibility")?.resources.push(
+{label:"DfT REAL training for bus and coach staff, lived-experience videos and training pack",url:"https://everyonesjourney.campaign.gov.uk/get-involved/real-training/",kind:"video"},
+{label:"Helping blind and partially sighted passengers, driver training resources",url:"https://www.sightlosscouncils.org.uk/campaigns/maketransportaccessible/makebusesaccessible/bus-driver-training/",kind:"video"}
+);
+academyCourses.find(c=>c.id==="customer-service")?.resources.push(
+{label:"DfT REAL training, inclusive customer service videos and exercises",url:"https://everyonesjourney.campaign.gov.uk/get-involved/real-training/",kind:"video"},
+{label:"Bus and coach customer service training resources",url:"https://www.drivingforbetterbusiness.com/dvsa/bus-coach/",kind:"interactive"}
+);
+academyCourses.find(c=>c.id==="reversing")?.resources.push(
+{label:"PCV Category D reversing exercise, practical demonstration",url:"https://www.youtube.com/watch?v=jIQzXSvEkoQ",kind:"video"}
+);
+academyCourses.find(c=>c.id==="professional-standards")?.resources.push(
+{label:"Bus and coach driver occupational standard",url:"https://occupational-maps.skillsengland.education.gov.uk/maps/occupation/OCC0338A",kind:"guidance"}
+);
