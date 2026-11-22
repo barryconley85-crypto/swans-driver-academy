@@ -11,6 +11,16 @@ export const tachographLessonChecks=[
 {question:"Your driver card is lost, stolen, damaged or faulty. What should you do?",options:["Borrow another driver's card","Continue without any records","Follow the legal fallback procedure, make required printouts and inform the office","Wait until the end of the month"],best:2,feedback:"There are specific procedures and time limits. Notify the office immediately and follow the applicable printout and record-keeping requirements."},
 {question:"You notice an incorrect activity has been recorded. What is the right response?",options:["Ignore it if the total hours look right","Alter the record without an explanation","Make the required printout or record correction, explain the error and notify the office","Delete the card data"],best:2,feedback:"Do not conceal errors. Follow the correction procedure, document the reason and keep the supporting record."}
 ] as const;
+export const tachographVideoChecks=[
+ {lessonIndex:6,questions:[
+  {question:"When the DTCO 4.1x asks whether to add activities after card insertion, what should you do if the period includes work away from the vehicle?",options:["Select No and leave the gap","Select Yes and enter the missing activities in order","Remove the card and start again"],best:1,feedback:"Select Yes, then account for the missing activities in sequence. The VDO manual shows the entry-addition prompt after the last withdrawal time."},
+  {question:"What time basis does the VDO DTCO 4.1x manual specify for manual activity entries?",options:["Always UTC, subtract an hour in summer","Local time, do not manually convert the activity times","Any time basis, as long as the total duration is right"],best:1,feedback:"The DTCO 4.1x manual says manual entries are made in local time. The unit may also display UTC, so read the screen labels carefully."}
+ ]},
+ {lessonIndex:7,questions:[
+  {question:"What should you do if the DTCO asks you to confirm a printout or entry and you notice an error?",options:["Confirm it and explain later","Cancel or return to the entries, correct the information, then confirm only when accurate","Ask another driver to use their card"],best:1,feedback:"The VDO manual describes returning to the entries so they can be corrected. Never knowingly confirm an inaccurate record."},
+  {question:"What is the purpose of a tachograph printout?",options:["To replace the driver card permanently","To provide a readable record of the selected driver or vehicle data and relevant events","To reset the driving time counter"],best:1,feedback:"A printout is a readable record. Where it is used to explain a record error or card issue, add the required identifying details, explanation and signature."}
+ ]}
+] as const;
 export const tachographCourse:{id:string;title:string;version:string;audience:string;durationMinutes:number;passMark:number;disclaimer:string;outcomes:string[];lessons:TachoLesson[];videos:{title:string;url:string;embed?:string;duration:string;provider:string}[];assessment:TachoQuestion[];sources:{label:string;url:string}[]}={
 id:"drivers-hours",
 title:"Drivers' Hours and Tachograph, the Complete Coach Driver Programme",
