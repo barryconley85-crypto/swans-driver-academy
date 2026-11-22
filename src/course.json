@@ -1365,11 +1365,11 @@
           "id": "knowledge",
           "title": "Knowledge check and sign-off",
           "content": [
-            "Complete the module knowledge check and discuss any incorrect answers with the trainer. Each module assessment requires 100% to demonstrate the required knowledge.",
-            "If an answer is incorrect, review the explanation and the relevant lesson, then retake the assessment. Further coaching should be provided where needed.",
-            "Record the topics covered, practical checks required, actions outstanding, knowledge outcome, practical assessment outcome and review date.",
-            "A driver signature confirms attendance or discussion. It does not replace a competent practical assessment or manager review.",
-            "Use the current DVSA guidance, Swans Travel procedures, vehicle handbook and operator instructions. This company induction is not an approved Driver CPC course."
+            "Complete the module knowledge check. Read each question carefully and choose the safest action for the situation.",
+            "If you answer incorrectly, read the explanation, revisit the relevant learning screen and try the assessment again. Keep practising until you understand the correct action.",
+            "Online learning checks your understanding. It does not by itself prove practical skills such as carrying out a physical walkaround, using passenger equipment or reversing safely.",
+            "Follow Swans Travel procedures and ask the office or a supervisor if you are unsure what to do on a live duty.",
+            "This company induction is not an approved Driver CPC course."
           ],
           "slides": [
             {
@@ -1385,10 +1385,10 @@
               "takeaway": "A module is passed only when every question is correct."
             },
             {
-              "heading": "Training records and practical sign-off",
-              "body": "Record the topics covered, practical checks required, actions outstanding, knowledge outcome, practical assessment outcome and review date. A driver signature confirms attendance or discussion. It does not replace a competent practical assessment or manager review.",
-              "example": "Passing the online quiz does not prove a driver can complete a walkaround or safely manoeuvre a coach. Those practical skills still need appropriate assessment.",
-              "takeaway": "Online learning supports training, it does not replace practical competence checks."
+              "heading": "What your online result means",
+              "body": "Your result confirms how you performed in this online knowledge check. It does not by itself prove that you can carry out practical tasks safely. Practical skills, such as a physical walkaround, use of passenger equipment and reversing, must be demonstrated separately when required.",
+              "example": "You achieve 100% in the online walkaround questions. You must still demonstrate a proper physical check on the actual vehicle type and understand how to report a defect in Freeway.",
+              "takeaway": "A quiz result confirms knowledge, practical skills must be demonstrated separately."
             },
             {
               "heading": "Assessment should prove understanding, not guessing",
@@ -1491,27 +1491,27 @@
         },
         {
           "id": "assessment-q7",
-          "question": "What does a driver signature on the training record confirm?",
+          "question": "At the end of a journey, what should you do before leaving the coach?",
           "options": [
-            "That the driver is competent in every task",
-            "Attendance and discussion, not a substitute for practical assessment",
-            "That no further training is needed",
-            "That the manager has completed the assessment"
+            "Leave as soon as the last passenger gets off",
+            "Check the passenger saloon, deal with any lost property and report anything requiring attention",
+            "Only check the driver's cab",
+            "Leave the doors open for the next driver"
           ],
           "correctIndex": 1,
-          "explanation": "The source presentation explicitly says a signature does not replace competent practical assessment."
+          "explanation": "Complete an end-of-job check of the passenger area, follow the lost-property process and report any defects or security concerns."
         },
         {
           "id": "assessment-q8",
-          "question": "What should happen if a knowledge check is not passed?",
+          "question": "A passenger asks you to stop somewhere that would be unsafe or unauthorised. What should you do?",
           "options": [
-            "Mark the module complete anyway",
-            "Remove the incorrect questions",
-            "Further coaching and another attempt before module completion",
-            "Sign off the driver without review"
+            "Stop there if the passenger insists",
+            "Stop briefly with hazard lights",
+            "Explain calmly and use a safe, authorised stopping place",
+            "Ask another passenger to decide"
           ],
           "correctIndex": 2,
-          "explanation": "A failed assessment means the driver needs to revisit the material and demonstrate the required knowledge."
+          "explanation": "Passenger requests do not override safe stopping arrangements. Explain the decision and use a safe, authorised location."
         }
       ]
     }
