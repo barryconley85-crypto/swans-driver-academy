@@ -67,3 +67,9 @@
 .completion-next-steps ol{margin:0;padding-left:21px}
 .completion-next-steps li{padding:4px 0;line-height:1.55;font-size:13px}
 @media(max-width:580px){.academy-complete{grid-template-columns:1fr;padding:19px;gap:13px}.academy-complete-icon{width:58px;height:58px}.completion-next-steps{padding:13px}}
+
+.pending-assessments{margin:14px 0 20px;padding:14px 16px;border:1px solid #d8e7ea;border-radius:12px;background:#f7fafb}
+.pending-assessments>b{display:block;margin-bottom:8px;color:#173d4e;font-size:13px}
+.pending-assessments>div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid #e3ecee;font-size:12px;color:#435e69}
+.pending-assessments strong{font-size:11px;color:#087f88;text-align:right}
+@media(max-width:580px){.pending-assessments>div{flex-direction:column;gap:3px}.pending-assessments strong{text-align:left}}
