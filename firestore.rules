@@ -1,25 +1,21 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    function signedIn(){ return request.auth != null; }
-    function userDoc(){ return get(/databases/$(database)/documents/users/$(request.auth.uid)).data; }
-    function isManager(){ return signedIn() && userDoc().role in ['admin','manager']; }
+    function signedIn() { return request.auth != null; }
+    function profile() { return get(/databases/$(database)/documents/users/$(request.auth.uid)).data; }
+    function activeUser() { return signedIn() && profile().active == true; }
+    function manager() { return activeUser() && profile().role in ['admin','manager','assessor']; }
     match /users/{uid} {
-      allow read: if signedIn() && (request.auth.uid == uid || isManager());
-      allow create, update, delete: if isManager();
+      allow read: if signedIn() && (request.auth.uid == uid || manager());
+      allow create: if signedIn() && request.auth.uid == uid && !('role' in request.resource.data);
+      allow update: if signedIn() && request.auth.uid == uid && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role','active','depot']);
+      allow delete: if manager();
     }
-    match /courses/{courseId} {
-      allow read: if signedIn();
-      allow write: if isManager();
-    }
-    match /assignments/{assignmentId} {
-      allow read: if signedIn() && (resource.data.driverId == request.auth.uid || isManager());
-      allow create, update, delete: if isManager();
-    }
-    match /progress/{progressId} {
-      allow read: if signedIn() && (resource.data.driverId == request.auth.uid || isManager());
-      allow create, update: if signedIn() && (request.resource.data.driverId == request.auth.uid || isManager());
-      allow delete: if isManager();
-    }
+    match /assignments/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update, delete: if manager(); }
+    match /trainingRecords/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update: if manager() || (activeUser() && request.resource.data.driverUid == request.auth.uid && request.resource.data.status in ['in_progress','submitted']); allow delete: if false; }
+    match /practicalAssessments/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update: if manager(); allow delete: if false; }
+    match /certificates/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow write: if manager(); }
+    match /auditLog/{id} { allow read, create: if manager(); allow update, delete: if false; }
+    match /{document=**} { allow read, write: if false; }
   }
 }
