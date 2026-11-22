@@ -123,3 +123,15 @@
 .vdo-caution{display:flex;gap:8px;align-items:flex-start;margin-top:14px;padding:11px;border-radius:8px;background:#fff5e7;color:#795a2a;font-size:10px;line-height:1.55}
 .vdo-caution svg{flex:0 0 auto}
 @media(max-width:580px){.vdo-simulator{padding:12px;margin:16px 0}.vdo-sim-heading h3{font-size:18px}.vdo-device{margin:14px 0}.vdo-task{padding:12px}.vdo-timeline>div{display:block}.vdo-timeline span{display:block;margin-top:5px}}
+
+
+/* Tachograph module mobile fit and lesson-first presentation */
+.tacho-course-player{width:100%;min-width:0;overflow:hidden;box-sizing:border-box}
+.tacho-course-player *{box-sizing:border-box;max-width:100%}
+.tacho-lesson-content{min-width:0}
+.tacho-lesson-content>p{overflow-wrap:anywhere}
+.tacho-lesson-nav{max-width:100%;overscroll-behavior-x:contain}
+.tacho-activity .library-choices button{font-size:13px;line-height:1.5;min-height:48px}
+.tacho-activity .btn.teal{min-height:46px}
+.tacho-lesson-controls .btn:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:580px){.tacho-course-banner{padding:16px}.tacho-course-banner h3{font-size:19px}.tacho-lesson-content{padding:14px}.tacho-lesson-content h3{font-size:18px}.tacho-lesson-content>p{font-size:13px;line-height:1.75}.tacho-lesson-controls{display:grid;grid-template-columns:1fr 1fr}.tacho-lesson-controls .btn{min-width:0;width:100%;white-space:normal;font-size:10px;padding:10px 7px}.tacho-lesson-nav button{flex-basis:165px}}
