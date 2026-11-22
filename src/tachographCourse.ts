@@ -1,5 +1,5 @@
-export type TachoLesson={id:string;title:string;minutes:number;teaching:string[];workedExample?:string;video?:{title:string;url:string;embed?:string;kind:"video"|"simulator"|"official"};activity:{prompt:string;steps:string[];answer:string}};
-export const tachographCourse={
+export type TachoLesson={id:string;title:string;minutes:number;teaching:string[];workedExample?:string;video?:{title:string;url:string;embed?:string;kind:"video"|"simulator"|"official"};activity:{prompt:string;steps:string[];answer:string}}; export type TachoQuestion={question:string;options:string[];best:number;feedback:string};
+export const tachographCourse:{id:string;title:string;version:string;audience:string;durationMinutes:number;passMark:number;disclaimer:string;outcomes:string[];lessons:TachoLesson[];videos:{title:string;url:string;embed?:string;duration:string;provider:string}[];assessment:TachoQuestion[];sources:{label:string;url:string}[]}={
 id:"drivers-hours",
 title:"Drivers' Hours and Tachograph, the Complete Coach Driver Programme",
 version:"1.0",
@@ -106,4 +106,4 @@ sources:[
 {label:"DVSA, tachograph rules for drivers and operators",url:"https://www.gov.uk/tachographs/overview"},
 {label:"Stoneridge SE5000 driver manual and simulator",url:"https://stoneridge-tachographs.com/en/support/se5000-online-simulator"}
 ]
-} as const;
+};
