@@ -1,0 +1,26 @@
+import {useMemo,useState} from 'react';
+import {CheckCircle2,RotateCcw,ChevronRight,Clock3,AlertTriangle} from 'lucide-react';
+
+type Activity='other-work'|'availability'|'rest';
+const labels:Record<Activity,string>={'other-work':'Other work','availability':'Period of availability','rest':'Break / rest'};
+const sequence:Activity[]=['other-work','rest'];
+export default function VdoTachographSimulator(){
+ const [stage,setStage]=useState(0),[chosen,setChosen]=useState<Activity[]>([]),[confirmed,setConfirmed]=useState(false),[feedback,setFeedback]=useState('');
+ const [cardInserted,setCardInserted]=useState(false);
+ const correct=chosen.length===2&&chosen.every((v,i)=>v===sequence[i]);
+ const steps=['Insert your own driver card into slot 1','Account for the period since the card was last withdrawn','Enter the first activity: other work, 15:23 to 18:00','Enter the second activity: rest, 18:00 to 08:37','Review the complete timeline before confirming'];
+ function reset(){setStage(0);setChosen([]);setConfirmed(false);setFeedback('');setCardInserted(false)}
+ return <section className="vdo-simulator">
+  <div className="vdo-sim-heading"><div><span>INTERACTIVE VDO PRACTICE</span><h3>Manual entry simulator</h3><p>Training example based on the VDO DTCO workflow. This is a learning simulation, not a live tachograph.</p></div><div className="vdo-screen-mark">VDO<br/><b>DTCO</b></div></div>
+  <div className="vdo-device"><div className="vdo-display"><small>DRIVER 1 · MANUAL INPUT</small><strong>{stage===0?'CARD REQUIRED':stage===1?'MANUAL ENTRY':stage===2?'ACTIVITY 1 OF 2':stage===3?'ACTIVITY 2 OF 2':confirmed?'ENTRY ACCEPTED':'CHECK ENTRIES'}</strong><div className="vdo-display-data">{stage===0?'Insert your driver card':stage===1?'Account for all missing time':stage===2?'15:23  →  18:00':stage===3?'18:00  →  08:37':confirmed?'Timeline saved in this practice':'Review both activity blocks'}</div></div><div className="vdo-buttons"><span>↶</span><span>▲</span><span>▼</span><span>OK</span><i>1</i><i>2</i></div></div>
+  <div className="vdo-task"><div className="vdo-task-top"><b>YOUR SCENARIO</b><span><Clock3 size={13}/> Next-day card insertion</span></div><p>You removed your card at <b>15:23</b>. You carried out other work until <b>18:00</b>, then took rest until inserting your card at <b>08:37</b> the following morning.</p>
+  {stage===0&&<button className="vdo-action" onClick={()=>{setCardInserted(true);setStage(1)}}>INSERT DRIVER CARD <ChevronRight size={16}/></button>}
+  {stage===1&&<><p className="vdo-question">What must you do before accepting the manual entry?</p><button className="vdo-choice" onClick={()=>{setFeedback('Correct. You must account for the complete period since withdrawal, using the activities that actually took place.');setStage(2)}}>Account for every missing activity in time order</button><button className="vdo-choice" onClick={()=>setFeedback('Not quite. Never accept a default that leaves a period unexplained.')}>Accept the default activity automatically</button>{feedback&&<p className="vdo-feedback">{feedback}</p>}</>}
+  {(stage===2||stage===3)&&<><p className="vdo-question">Choose the correct activity for {stage===2?'15:23 to 18:00':'18:00 to 08:37'}.</p>{(['other-work','availability','rest'] as Activity[]).map(a=><button className={'vdo-choice '+(chosen[stage-2]===a?'selected':'')} key={a} onClick={()=>{setChosen(v=>{const n=[...v];n[stage-2]=a;return n});setFeedback('')}}>{labels[a]}</button>)}{feedback&&<p className="vdo-feedback">{feedback}</p>}<button className="vdo-action" disabled={!chosen[stage-2]} onClick={()=>{if(stage===2)setStage(3);else {if(correct){setStage(4);setFeedback('Both activities are correct. Now review the timeline.')}else setFeedback('Check the scenario again. Work from 15:23 to 18:00 is other work. The overnight period is rest.')}}}>CONFIRM ACTIVITY <ChevronRight size={16}/></button></>}
+  {(stage===4||confirmed)&&<><div className="vdo-timeline"><div><b>15:23 – 18:00</b><span>{labels[chosen[0]]}</span></div><div><b>18:00 – 08:37</b><span>{labels[chosen[1]]}</span></div></div>{!confirmed?<><p className="vdo-question">Check that the activities match what you actually did. Also check whether the tachograph is displaying local time or UTC before entering times.</p><button className="vdo-action" onClick={()=>{setConfirmed(true);setFeedback('Correct. You have accounted for the full period in the right order. On the actual unit, follow the prompts for time mode, country entries and final confirmation.')}}>CONFIRM REVIEWED TIMELINE <CheckCircle2 size={16}/></button></>:<div className="vdo-success"><CheckCircle2 size={18}/> Practice complete. You correctly recorded other work followed by rest.</div>}</>}
+  {feedback&&stage===4&&<p className="vdo-feedback">{feedback}</p>}
+  <div className="vdo-sim-footer"><span>Practice step {Math.min(stage+1,5)} of 5</span><button onClick={reset}><RotateCcw size={14}/> Restart exercise</button></div>
+  <div className="vdo-caution"><AlertTriangle size={16}/><span>Button layouts and prompts vary by DTCO release and vehicle configuration. This simulator teaches the decision and record sequence, it does not replace supervised practice on the actual VDO unit fitted to your coach.</span></div>
+ </div>
+</section>
+}
