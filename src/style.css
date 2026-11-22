@@ -135,3 +135,10 @@
 .tacho-activity .btn.teal{min-height:46px}
 .tacho-lesson-controls .btn:disabled{opacity:.45;cursor:not-allowed}
 @media(max-width:580px){.tacho-course-banner{padding:16px}.tacho-course-banner h3{font-size:19px}.tacho-lesson-content{padding:14px}.tacho-lesson-content h3{font-size:18px}.tacho-lesson-content>p{font-size:13px;line-height:1.75}.tacho-lesson-controls{display:grid;grid-template-columns:1fr 1fr}.tacho-lesson-controls .btn{min-width:0;width:100%;white-space:normal;font-size:10px;padding:10px 7px}.tacho-lesson-nav button{flex-basis:165px}}
+
+
+.vdo-option-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.vdo-option-grid button{min-height:44px;padding:10px;border:1px solid #cbdde1;border-radius:9px;background:#f5f9fa;color:#24495a;font-size:12px;font-weight:700;text-align:left}
+.vdo-option-grid button.selected{border-color:#168c91;background:#e8f7f5;box-shadow:inset 0 0 0 1px #168c91}
+.vdo-small-note{font-size:11px;line-height:1.55;color:#71848c}
+@media(max-width:580px){.vdo-option-grid{grid-template-columns:1fr}}
