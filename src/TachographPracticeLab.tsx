@@ -1,5 +1,5 @@
-import {useMemo,useState} from 'react';
-import {Calculator,Clock3,CheckCircle2,RotateCcw,AlertTriangle,ArrowRight} from 'lucide-react';
+import {useState} from 'react';
+import {Calculator,Clock3,CheckCircle2,AlertTriangle,ArrowRight} from 'lucide-react';
 
 const fmt=(mins:number)=>{const h=Math.floor(mins/60),m=mins%60;return h+'h '+String(m).padStart(2,'0')+'m'};
 export default function TachographPracticeLab(){
