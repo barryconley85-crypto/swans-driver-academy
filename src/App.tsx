@@ -24,7 +24,9 @@ function AcademyCoursePlayer({course:courseData,onComplete,onReturn}:{course:Lib
  const lesson=lessons[lessonIndex];
  const done=lessonDone.length===lessons.length;
  const score=checks.filter((q,i)=>answers[i]===q.best).length;
- const [saved,setSaved]=useState(()=>{try{return localStorage.getItem('swans-academy-course-'+courseData.id)==='passed'}catch{return false}});\n const [completedAt,setCompletedAt]=useState(()=>{try{return localStorage.getItem('swans-academy-course-date-'+courseData.id)||''}catch{return ''}});\n useEffect(()=>{if(saved)onComplete()},[saved]);
+ const [saved,setSaved]=useState(()=>{try{return localStorage.getItem('swans-academy-course-'+courseData.id)==='passed'}catch{return false}});
+ const [completedAt,setCompletedAt]=useState(()=>{try{return localStorage.getItem('swans-academy-course-date-'+courseData.id)||''}catch{return ''}});
+ useEffect(()=>{if(saved)onComplete()},[saved]);
  const markLesson=()=>{setLessonDone(p=>p.includes(lessonIndex)?p:[...p,lessonIndex]);if(lessonIndex<lessons.length-1)setLessonIndex(i=>i+1);};
  const reset=()=>{setLessonIndex(0);setLessonDone([]);setScenarioChoice(null);setScenarioChecked(false);setAnswers({});setSubmitted(false);setPassed(false);};
  return <div className="academy-player">
