@@ -267,9 +267,6 @@
   justify-content:space-between !important;
   padding:16px 18px !important;
   overflow:hidden !important;
-  background-size:cover !important;
-  background-position:center !important;
-  background-repeat:no-repeat !important;
 }
 .academy-library-card > .academy-card-image > span{
   display:inline-flex !important;
