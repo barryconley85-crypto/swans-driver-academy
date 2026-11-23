@@ -193,3 +193,60 @@
 .practice-scenario-controls{display:flex;justify-content:space-between;gap:8px;margin-top:12px}
 .practice-scenario-controls button:disabled{opacity:.35}
 @media(max-width:580px){.practice-lab-card{padding:12px}.practice-math{gap:5px}.practice-math b{font-size:13px}.practice-math small{font-size:9px}.practice-input-grid{grid-template-columns:1fr 1fr}.practice-status{display:grid}}
+
+
+/* Visual-first academy library refresh */
+.academy-library{scroll-margin-top:24px}
+.academy-library-grid{align-items:stretch;gap:20px}
+.academy-library-card{padding:0;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:transform .18s ease,box-shadow .18s ease}
+.academy-library-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(20,55,72,.11)}
+.academy-card-image{height:174px;background-size:cover;background-position:center;position:relative;display:flex;align-items:flex-end;justify-content:space-between;padding:16px 18px;gap:10px}
+.academy-card-image span{font-size:10px;letter-spacing:1.1px;text-transform:uppercase;font-weight:800;color:#fff;text-shadow:0 1px 5px #102d3b}
+.academy-card-image b{font-size:10px;color:#173b52;background:rgba(255,255,255,.94);padding:7px 10px;border-radius:30px;white-space:nowrap}
+.academy-card-body{padding:19px 20px 20px;display:flex;flex-direction:column;flex:1}
+.academy-library-card h3{font-size:18px;line-height:1.35;margin:0 0 9px;min-height:48px}
+.academy-library-card>p{font-size:12px;line-height:1.65;min-height:58px;margin:0}
+.academy-library-card>ul{padding-left:18px;min-height:0;margin:2px 0 13px}
+.academy-library-card>ul li{font-size:11px;line-height:1.55;margin:5px 0}
+.academy-library-card .library-card-meta{font-size:10px;margin:13px 0}
+.academy-card-body>.btn{width:100%;justify-content:center;min-height:46px;font-size:11px;font-weight:800;letter-spacing:.35px;margin-top:auto}
+.academy-card-body>.library-detail,.academy-card-body>.tacho-course-player{margin-top:20px}
+.academy-library-card:has(.library-detail),.academy-library-card:has(.tacho-course-player){grid-column:1/-1}
+.academy-library-card:has(.library-detail) .academy-card-image,.academy-library-card:has(.tacho-course-player) .academy-card-image{height:190px}
+.academy-library-card:has(.library-detail) .academy-card-body,.academy-library-card:has(.tacho-course-player) .academy-card-body{padding:20px 24px 24px}
+@media(max-width:650px){
+ .academy-library{padding:34px 0}
+ .academy-library .section-heading{align-items:flex-start;gap:10px}
+ .academy-library .section-heading h2{font-size:25px;line-height:1.2}
+ .academy-library .section-heading p{font-size:12px;line-height:1.65}
+ .library-filter{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;padding:2px 0 10px;margin:17px 0;scrollbar-width:thin}
+ .library-filter button{flex:0 0 auto;min-height:39px;font-size:11px;padding:9px 14px}
+ .academy-library-grid{grid-template-columns:1fr;gap:14px}
+ .academy-library-card{border-radius:15px}
+ .academy-card-image{height:158px;padding:14px 16px}
+ .academy-card-body{padding:16px}
+ .academy-library-card h3{font-size:17px;min-height:0}
+ .academy-library-card>p{font-size:12px;min-height:0}
+ .academy-library-card>ul{margin:2px 0 12px}
+ .academy-library-card>ul li{font-size:11px}
+ .academy-card-body>.btn{min-height:48px;font-size:12px}
+ .academy-library-card:has(.library-detail),.academy-library-card:has(.tacho-course-player){grid-column:auto}
+ .academy-library-card:has(.library-detail) .academy-card-image,.academy-library-card:has(.tacho-course-player) .academy-card-image{height:165px}
+ .academy-library-card:has(.library-detail) .academy-card-body,.academy-library-card:has(.tacho-course-player) .academy-card-body{padding:16px}
+ .library-detail{padding-top:14px}
+ .library-lesson{padding:14px 0}
+ .library-lesson>b{font-size:13px;line-height:1.45}
+ .library-lesson p,.library-lesson .lesson-deep-dive{font-size:12px!important;line-height:1.7!important}
+ .library-lesson small{font-size:10px;line-height:1.6}
+ .academy-assessment{padding:13px;margin:15px 0}
+ .assessment-question>b{font-size:13px}
+ .library-choices button{font-size:12px;min-height:46px}
+ .library-scenario{padding:13px}
+ .tacho-course-banner{padding:17px}
+ .tacho-course-banner h3{font-size:20px}
+ .tacho-lesson-nav{display:flex;overflow-x:auto;max-height:none;gap:7px;padding-bottom:8px}
+ .tacho-lesson-nav button{flex:0 0 220px}
+ .tacho-lesson-content{padding:15px}
+ .tacho-lesson-controls{display:grid;grid-template-columns:1fr}
+ .tacho-lesson-controls button{width:100%;justify-content:center;min-height:46px}
+}
