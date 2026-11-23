@@ -250,3 +250,78 @@
  .tacho-lesson-controls{display:grid;grid-template-columns:1fr}
  .tacho-lesson-controls button{width:100%;justify-content:center;min-height:46px}
 }
+
+
+/* Hardening: prevent the visual course cover from collapsing inside flex cards */
+.academy-library-card > .academy-card-image{
+  display:flex !important;
+  position:relative !important;
+  box-sizing:border-box !important;
+  width:100% !important;
+  height:190px !important;
+  min-height:190px !important;
+  max-height:190px !important;
+  flex:0 0 190px !important;
+  flex-shrink:0 !important;
+  align-items:flex-end !important;
+  justify-content:space-between !important;
+  padding:16px 18px !important;
+  overflow:hidden !important;
+  background-size:cover !important;
+  background-position:center !important;
+  background-repeat:no-repeat !important;
+}
+.academy-library-card > .academy-card-image > span{
+  display:inline-flex !important;
+  align-items:center !important;
+  max-width:75% !important;
+  color:#fff !important;
+  font-size:10px !important;
+  line-height:1.4 !important;
+  letter-spacing:1.1px !important;
+  text-transform:uppercase !important;
+  font-weight:800 !important;
+  text-shadow:0 1px 5px rgba(0,0,0,.75) !important;
+}
+.academy-library-card > .academy-card-image > b{
+  display:inline-flex !important;
+  flex:0 0 auto !important;
+  color:#173b52 !important;
+  background:#fff !important;
+  font-size:10px !important;
+  line-height:1 !important;
+  font-weight:800 !important;
+  padding:8px 11px !important;
+  border-radius:30px !important;
+}
+.academy-library-card > .academy-card-body{
+  display:flex !important;
+  flex-direction:column !important;
+  flex:1 1 auto !important;
+  min-width:0 !important;
+  padding:19px 20px 20px !important;
+}
+.academy-library-card > .academy-card-body > h3{
+  color:#1b394d !important;
+  font-size:18px !important;
+  line-height:1.35 !important;
+  margin:0 0 9px !important;
+}
+.academy-library-card > .academy-card-body > p{
+  color:#526b78 !important;
+  font-size:12px !important;
+  line-height:1.65 !important;
+  min-height:58px !important;
+}
+@media(max-width:650px){
+ .academy-library-card > .academy-card-image{
+   height:165px !important;
+   min-height:165px !important;
+   max-height:165px !important;
+   flex-basis:165px !important;
+   padding:14px 16px !important;
+ }
+ .academy-library-card > .academy-card-body{padding:16px !important}
+ .academy-library-card > .academy-card-body > h3{font-size:17px !important}
+ .academy-library-card > .academy-card-body > p{min-height:0 !important;font-size:12px !important}
+}
