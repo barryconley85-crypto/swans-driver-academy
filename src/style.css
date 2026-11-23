@@ -375,3 +375,30 @@
  .academy-player-controls .btn{width:100%;min-height:48px}
  .academy-player-question .library-choices button{min-height:46px}
 }
+
+
+/* Dedicated full-page course experience, separate from the catalogue */
+.academy-standalone-page{max-width:1120px;margin:0 auto;padding:30px 26px 54px;min-height:75vh}
+.academy-standalone-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid #e4ecef}
+.academy-standalone-top>span{font-size:10px;letter-spacing:1.5px;font-weight:800;color:#168b96}
+.academy-back-button{border:1px solid #d5e2e7;background:#fff;border-radius:9px;padding:11px 15px;color:#244b60;font-size:11px;font-weight:800;cursor:pointer}
+.academy-back-button:hover{background:#f0f7f8}
+.academy-standalone-heading{max-width:760px;margin:34px auto 25px;text-align:center}
+.academy-standalone-heading h1{font-size:clamp(26px,4vw,38px);line-height:1.2;color:#193d52;margin:9px 0}
+.academy-standalone-heading p{font-size:13px;line-height:1.7;color:#657b86}
+.academy-standalone-content{max-width:900px;margin:0 auto}
+.academy-standalone-content .academy-player{margin:0;border:1px solid #e1eaed;border-radius:15px;padding:22px;background:#fff;box-shadow:0 10px 30px rgba(20,55,72,.06)}
+.academy-standalone-content .tacho-course-player{margin:0;border-radius:15px}
+.academy-standalone-bottom{max-width:900px;margin:22px auto 0;display:flex;justify-content:flex-start}
+@media(max-width:650px){
+ .academy-standalone-page{padding:12px 14px 38px}
+ .academy-standalone-top{align-items:flex-start}
+ .academy-standalone-top>span{font-size:8px;letter-spacing:1px;text-align:right;padding-top:10px}
+ .academy-standalone-heading{margin:25px auto 18px;text-align:left}
+ .academy-standalone-heading h1{font-size:25px}
+ .academy-standalone-heading p{font-size:12px}
+ .academy-standalone-content .academy-player{padding:13px;border-radius:12px}
+ .academy-standalone-bottom .btn{width:100%;justify-content:center;min-height:46px}
+ body:has(.academy-standalone-page) .mobile-app-nav{display:none!important}
+}
+body:has(.academy-standalone-page) .welcome{display:none!important}
