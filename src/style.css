@@ -417,3 +417,10 @@ body:has(.academy-standalone-page) .welcome{display:none!important}
 .academy-player-certificate .academy-certificate-note{font-size:11px;color:#7b8e96;margin:18px auto 24px}
 .academy-player-certificate .btn{min-height:48px;padding:0 24px}
 @media(max-width:560px){.academy-player-certificate{padding:24px 16px;margin:16px 0}.academy-certificate-details{grid-template-columns:1fr;gap:5px;padding:16px}.academy-certificate-details b{margin-bottom:9px}.academy-player-certificate .btn{width:100%;justify-content:center}}
+
+/* At-a-glance course progress badges in the training library */
+.academy-course-status{display:flex;align-items:center;justify-content:center;width:max-content;max-width:100%;margin:0 0 10px;padding:7px 11px;border-radius:999px;font-size:10px;line-height:1.2;font-weight:800;letter-spacing:.055em}
+.academy-course-status.not-started{background:#edf2f5;color:#637987}
+.academy-course-status.in-progress{background:#fff4dc;color:#8b5b0b;border:1px solid #f0d9a7}
+.academy-course-status.passed{background:#e5f5ed;color:#16734f;border:1px solid #bde5cf}
+@media(max-width:600px){.academy-course-status{font-size:9px;padding:7px 9px;margin-bottom:8px}}
