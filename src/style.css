@@ -402,3 +402,18 @@
  body:has(.academy-standalone-page) .mobile-app-nav{display:none!important}
 }
 body:has(.academy-standalone-page) .welcome{display:none!important}
+
+/* Successful course completion certificate */
+.academy-player-certificate{margin:26px 0 12px;padding:clamp(24px,5vw,52px);border:1px solid #cfe4df;border-radius:20px;background:linear-gradient(145deg,#f4fbf9 0%,#fff 72%);text-align:center;box-shadow:0 16px 42px rgba(18,75,78,.08)}
+.academy-certificate-mark{width:76px;height:76px;margin:0 auto 18px;display:grid;place-items:center;border-radius:50%;background:#e1f4ed;color:#12816f}
+.academy-player-certificate h2{margin:8px 0;color:#123f55;font-size:clamp(32px,5vw,48px);letter-spacing:-1px}
+.academy-player-certificate h3{margin:0 auto 16px;color:#17485d;font-size:clamp(17px,2.5vw,22px)}
+.academy-certificate-name{font-size:17px;font-weight:700;color:#163d55;margin:18px auto;max-width:620px}
+.academy-certificate-stamp{display:inline-flex;align-items:center;gap:8px;margin:4px auto 16px;padding:10px 18px;border-radius:999px;background:#e1f4ed;color:#08745d;font-weight:800;font-size:12px;letter-spacing:1px}
+.academy-player-certificate>p{max-width:620px;margin:10px auto;color:#536f7c;line-height:1.7}
+.academy-certificate-details{max-width:520px;margin:25px auto;padding:18px 22px;display:grid;grid-template-columns:1fr 1.4fr;gap:12px;text-align:left;border:1px solid #dce9e8;border-radius:13px;background:#fff}
+.academy-certificate-details span{font-size:12px;color:#718793}
+.academy-certificate-details b{font-size:13px;color:#183f54;overflow-wrap:anywhere}
+.academy-player-certificate .academy-certificate-note{font-size:11px;color:#7b8e96;margin:18px auto 24px}
+.academy-player-certificate .btn{min-height:48px;padding:0 24px}
+@media(max-width:560px){.academy-player-certificate{padding:24px 16px;margin:16px 0}.academy-certificate-details{grid-template-columns:1fr;gap:5px;padding:16px}.academy-certificate-details b{margin-bottom:9px}.academy-player-certificate .btn{width:100%;justify-content:center}}
