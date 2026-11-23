@@ -6,23 +6,23 @@ const moduleIntros=[{intro:"Professional behaviour, clear communication and good
 const photos=['https://www.route-one.net/wp-content/uploads/2022/12/Swans-Travel-Yutong-TCe12.jpg','https://www.wmbusphotos.com/NONWM/GM/GMswanYT22EWY.240326.jpg','https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill%2Cf_jpg%2Ch_822%2Cq_75%2Cw_1220/http%3A/manchester.newmindmedia.com/wsimgs/Swans_Travel2_preview_693056977.jpeg','https://assets.simpleviewinc.com/simpleview/image/upload/c_fill%2Ch_644%2Cq_75%2Cw_1200/v1/clients/meetmanchester/swans_electric_8e9d0523-e4c1-4909-aa76-bab486f992cf.jpg','https://www.swanstravel.com/sites/default/files/styles/webp_convert/public/2026-05/image_174254.webp?itok=Z4Ysdt9E','https://wmbusphotos.com/NONWM/GM/GMswansYT20EPO.220212.jpg'];
 const academyCoursePhotos:Record<string,string>={
 "professional-standards":photos[0],
-"vehicle-safety":"https://commons.wikimedia.org/wiki/Special:FilePath/2016%20Neoplan%20Tourliner.jpg",
-"freeway-defects":"https://commons.wikimedia.org/wiki/Special:FilePath/20190807-Station-Coaches-SN09CHJ%281%29.jpg",
-"drivers-hours":"https://commons.wikimedia.org/wiki/Special:FilePath/Stagecoach_Group_Seed_Vehicle_80000_%28SC74_ZEB%29_Dashboard.jpg",
-"wtd":"https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Southern_National_2250_%28617DDV%29_driver%27s_cab.JPG",
-"customer-service":"https://commons.wikimedia.org/wiki/Special:FilePath/20190827-powells-AD02POW-KV02USF%20%28cropped%29.jpg",
-"safeguarding":"https://commons.wikimedia.org/wiki/Special:FilePath/20190827-Powells-PJ52LWD%20%28cropped%29.jpg",
-"accessibility":"https://commons.wikimedia.org/wiki/Special:FilePath/Watkins_Coaches_white_coach%2C_Queensway%2C_Newport_-_geograph.org.uk_-_7098291.jpg",
-"defensive-driving":"https://commons.wikimedia.org/wiki/Special:FilePath/James_Bevan_white_coach%2C_Malpas%2C_Newport_-_geograph.org.uk_-_8367997.jpg",
-"reversing":photos[1],
-"route-planning":"https://commons.wikimedia.org/wiki/Special:FilePath/2015%20Detling%20transport%20show%20DSC03739%20%2816769379278%29.jpg",
-"emergencies":photos[2],
-"fire-evacuation":"https://commons.wikimedia.org/wiki/Special:FilePath/RapidInterior1.jpg",
-"school-transport":photos[3],
-"accident-reporting":"https://commons.wikimedia.org/wiki/Special:FilePath/Arriva_North_East_Driver_Training_Coach.jpg",
-"cpc-development":"https://commons.wikimedia.org/wiki/Special:FilePath/BM_Coaches_coaches.JPG",
-"practical-assessments":photos[5],
-"remedial-learning":photos[4]
+"vehicle-safety":photos[1],
+"freeway-defects":photos[2],
+"drivers-hours":photos[3],
+"wtd":photos[4],
+"customer-service":photos[5],
+"safeguarding":photos[0],
+"accessibility":photos[3],
+"defensive-driving":photos[1],
+"reversing":photos[2],
+"route-planning":photos[4],
+"emergencies":photos[5],
+"fire-evacuation":photos[1],
+"school-transport":photos[0],
+"accident-reporting":photos[2],
+"cpc-development":photos[3],
+"practical-assessments":photos[4],
+"remedial-learning":photos[5]
 };
 // Several Wikimedia Commons images above are available under Creative Commons licences. Keep the source/author/licence details with each Commons file page when reusing or redistributing.
 const descriptions=['Make sound decisions, communicate professionally and protect passenger information','Inspect, report and assess defects, then plan safe journeys','Manage boarding, passenger welfare and accessibility with confidence','Apply the correct hours rules, record activity accurately and recognise fatigue','Make safe decisions during breakdowns, collisions and evacuations','Apply your learning to realistic situations and demonstrate understanding'];
