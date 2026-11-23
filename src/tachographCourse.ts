@@ -28,7 +28,7 @@ version:"1.1",
 audience:"Swans Travel PCV drivers",
 durationMinutes:98,
 passMark:80,
-disclaimer:"This learning is based on current DVSA guidance for passenger-carrying vehicles and the applicable assimilated/AETR and GB domestic rules. The rules that apply depend on the vehicle, operation, route and any exemption. This course is not a substitute for the current DVSA guidance, legal advice or Swans Travel instructions. Where a duty's legal status is uncertain, stop and ask the transport office before relying on a rule.",
+disclaimer:"This learning uses the supplied DfT simplified guide as a teaching aid, the National Highways fatigue presentation and current DVSA passenger-vehicle guidance. The supplied DfT simplified guide dates from the earlier EU-rule framework and must not be treated as the sole or current legal authority. Current GOV.UK guidance and the confirmed rule set for the actual operation take precedence. Rules depend on vehicle, operation, route and exemptions. This course is not legal advice or a substitute for Swans Travel instructions. If a duty's legal status is uncertain, ask the transport office before relying on a rule.",
 outcomes:["Identify whether assimilated/AETR or GB domestic drivers' hours rules apply to a passenger journey","Calculate driving limits, breaks, daily rest and weekly rest","Explain reduced weekly rest compensation and distinguish it from other forms of compensation","Correctly record driving, other work, availability, breaks and rest","Make accurate manual entries after card withdrawal, missed activity, vehicle changes and equipment faults","Respond correctly to a lost, stolen, damaged or malfunctioning driver card","Read common tachograph records and identify errors before they become infringements"],
 lessons:[
 {id:"regime",title:"1. Start with the correct drivers’ hours rules",minutes:7,teaching:[
@@ -128,6 +128,6 @@ sources:[
 {label:"DVSA, Drivers' hours and tachographs: buses and coaches",url:"https://www.gov.uk/guidance/drivers-hours-passenger-vehicles"},
 {label:"DVSA, GB domestic drivers' hours rules",url:"https://www.gov.uk/drivers-hours/gb-domestic-rules"},
 {label:"DVSA, tachograph rules for drivers and operators",url:"https://www.gov.uk/tachographs/overview"},
-{label:"VDO DTCO 4.1 driver manual and support",url:"https://www.fleet.vdo.com/media/1wcfjdwk/ba00-1381-41-100-102_dtco_41b_en_web_2026-02-20.pdf"}
+{label:"VDO DTCO 4.1 driver manual and support",url:"https://www.fleet.vdo.com/media/1wcfjdwk/ba00-1381-41-100-102_dtco_41b_en_web_2026-02-20.pdf"},{label:"DfT simplified drivers hours and working time guide, supplied source and historical examples",url:"https://www.gov.uk/government/publications/eu-rules-on-drivers-hours-and-working-time"},{label:"Traffic Commissioners, Drivers Hours: safety, compliance and responsibility, March 2026",url:"https://www.gov.uk/government/news/drivers-hours-a-traffic-commissioners-perspective-on-safety-compliance-and-responsibility"}
 ]
 };
