@@ -8,7 +8,7 @@ const academyCoursePhotos:Record<string,string>={
 "professional-standards":photos[0],
 "vehicle-safety":"https://commons.wikimedia.org/wiki/Special:FilePath/2016%20Neoplan%20Tourliner.jpg",
 "freeway-defects":"https://commons.wikimedia.org/wiki/Special:FilePath/20190807-Station-Coaches-SN09CHJ%281%29.jpg",
-"drivers-hours":"https://www.route-one.net/wp-content/uploads/2025/08/Opinion-rotating-Sam-Archer-886-1.jpg",
+"drivers-hours":"https://commons.wikimedia.org/wiki/Special:FilePath/Stagecoach_Group_Seed_Vehicle_80000_%28SC74_ZEB%29_Dashboard.jpg",
 "wtd":"https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Southern_National_2250_%28617DDV%29_driver%27s_cab.JPG",
 "customer-service":"https://commons.wikimedia.org/wiki/Special:FilePath/20190827-powells-AD02POW-KV02USF%20%28cropped%29.jpg",
 "safeguarding":"https://commons.wikimedia.org/wiki/Special:FilePath/20190827-Powells-PJ52LWD%20%28cropped%29.jpg",
@@ -21,7 +21,7 @@ const academyCoursePhotos:Record<string,string>={
 "school-transport":photos[3],
 "accident-reporting":"https://commons.wikimedia.org/wiki/Special:FilePath/Arriva_North_East_Driver_Training_Coach.jpg",
 "cpc-development":"https://commons.wikimedia.org/wiki/Special:FilePath/BM_Coaches_coaches.JPG",
-"practical-assessments":"https://commons.wikimedia.org/wiki/Special:FilePath/Inside-230007-SeeCabDoor-P1780825.jpg",
+"practical-assessments":photos[5],
 "remedial-learning":photos[4]
 };
 // Several Wikimedia Commons images above are available under Creative Commons licences. Keep the source/author/licence details with each Commons file page when reusing or redistributing.
