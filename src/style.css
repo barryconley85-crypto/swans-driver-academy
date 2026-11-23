@@ -325,3 +325,53 @@
  .academy-library-card > .academy-card-body > h3{font-size:17px !important}
  .academy-library-card > .academy-card-body > p{min-height:0 !important;font-size:12px !important}
 }
+
+
+/* Focused lesson-by-lesson course player */
+.academy-player{margin-top:18px;border-top:1px solid #e5edef;padding-top:18px;color:#294654}
+.academy-player-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;background:#f1f7f8;border:1px solid #deeaed;border-radius:12px;padding:16px}
+.academy-player-head>div>span,.academy-player-kicker{font-size:9px;letter-spacing:1.35px;font-weight:800;color:#188b95}
+.academy-player-head h4{font-size:17px;line-height:1.35;color:#193d52;margin:7px 0 5px}
+.academy-player-head p{font-size:11px;color:#6a7f89;margin:0;line-height:1.5}
+.academy-player-head>b{flex:0 0 auto;background:#fff;color:#247c84;border-radius:30px;padding:7px 10px;font-size:9px}
+.academy-player-track{height:6px;background:#e8eff1;border-radius:8px;margin:14px 0;overflow:hidden}
+.academy-player-track i{display:block;height:100%;background:linear-gradient(90deg,#168d99,#69c8c2);border-radius:8px;transition:width .2s}
+.academy-player-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:14px 0 20px}
+.academy-player-steps button,.academy-player-steps>span{border:1px solid #e1eaed;background:#fff;border-radius:9px;padding:10px 9px;display:flex;align-items:center;gap:8px;text-align:left;color:#637985;font-size:10px;line-height:1.4;min-width:0}
+.academy-player-steps button:disabled{opacity:.55}
+.academy-player-steps button.active{border-color:#269aa2;background:#eff9f8;color:#17556a}
+.academy-player-steps button.complete,.academy-player-steps>span.complete{border-color:#cde8dc;background:#f0faf4;color:#26714d}
+.academy-player-steps button span,.academy-player-steps>span b{display:grid;place-items:center;flex:0 0 23px;width:23px;height:23px;border-radius:50%;background:#edf3f4;color:#267f89;font-size:10px}
+.academy-player-lesson,.academy-player-assessment{border:1px solid #e0eaed;border-radius:12px;padding:19px;background:#fff}
+.academy-player-lesson>h4,.academy-player-assessment>h4{font-size:19px;line-height:1.35;color:#193d52;margin:9px 0 12px}
+.academy-player-teaching{font-size:13px;line-height:1.8;color:#4e6672}
+.academy-player-example{background:#f3f8f9;border-left:3px solid #4eafb3;border-radius:0 8px 8px 0;padding:14px 16px;margin:15px 0}
+.academy-player-example>b,.academy-player-activity>b,.academy-player-scenario>b,.academy-player-resources>b{font-size:9px;letter-spacing:1.2px;color:#178b95}
+.academy-player-example p,.academy-player-activity p,.academy-player-scenario p{font-size:12px;line-height:1.75;color:#526b78;margin:7px 0 0}
+.academy-player-activity{background:#fff9ed;border:1px solid #f0e3c7;border-radius:9px;padding:14px 15px;margin:15px 0}
+.academy-player-activity small{display:block;font-size:10px;line-height:1.6;color:#856b3f;margin-top:8px}
+.academy-player-controls{display:flex;justify-content:space-between;gap:10px;margin-top:18px}
+.academy-player-controls .btn{min-height:44px;justify-content:center}
+.academy-player-question{padding:15px 0;border-top:1px solid #e7edef}
+.academy-player-question>b{font-size:13px;line-height:1.55;color:#23475a}
+.academy-player-assessment>p{font-size:12px;line-height:1.65;color:#647a85}
+.academy-player-result{padding:13px;border-radius:9px;margin-top:14px}
+.academy-player-result.right{background:#edf8f1;color:#256443}
+.academy-player-result.try-again{background:#fff5e9;color:#80531f}
+.academy-player-result p{font-size:12px;line-height:1.6}
+.academy-player-scenario{background:#f4f8f9;border:1px solid #e0eaed;border-radius:11px;padding:15px;margin-top:16px}
+.academy-player-resources{margin-top:17px}
+.academy-player-saved{display:flex;align-items:center;gap:8px;color:#23764e;font-size:12px;font-weight:700}
+.academy-player-reset{border:0;background:transparent;color:#81919a;font-size:10px;text-decoration:underline;padding:8px 0;cursor:pointer}
+@media(max-width:650px){
+ .academy-player-head{padding:13px;flex-direction:column}
+ .academy-player-head h4{font-size:16px}
+ .academy-player-steps{grid-template-columns:1fr}
+ .academy-player-steps button,.academy-player-steps>span{min-height:43px;font-size:11px}
+ .academy-player-lesson,.academy-player-assessment{padding:14px}
+ .academy-player-lesson>h4,.academy-player-assessment>h4{font-size:18px}
+ .academy-player-teaching{font-size:13px}
+ .academy-player-controls{display:grid;grid-template-columns:1fr}
+ .academy-player-controls .btn{width:100%;min-height:48px}
+ .academy-player-question .library-choices button{min-height:46px}
+}
