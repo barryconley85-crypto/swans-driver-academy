@@ -4,7 +4,7 @@ import {getAuth} from "firebase-admin/auth";
 import {getFirestore,FieldValue} from "firebase-admin/firestore";
 initializeApp();
 const db=getFirestore();
-function cleanUsername(value:string){return value.toLowerCase().normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").replace(/[^a-z0-9.]/g,"").replace(/^\\.+|\\.+$/g,"");}
+function cleanUsername(value:string){return value.toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9.]/g,"").replace(/^\.+|\.+$/g,"");}
 async function requireManager(uid:string|undefined){if(!uid)throw new HttpsError("unauthenticated","Please sign in.");const snap=await db.doc("users/"+uid).get();const p=snap.data();if(!p||p.active!==true||!["admin","manager","assessor"].includes(p.role))throw new HttpsError("permission-denied","Manager access is required.");return p;}
 const loginDomain="drivers.academy.swansapps.co.uk";
 export const createDriverAccount=onCall(async request=>{
