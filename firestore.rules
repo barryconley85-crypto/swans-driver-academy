@@ -7,7 +7,7 @@ service cloud.firestore {
     function manager() { return activeUser() && profile().role in ['admin','manager','assessor']; }
     match /users/{uid} {
       allow read: if signedIn() && (request.auth.uid == uid || manager());
-      allow create: if signedIn() && request.auth.uid == uid && !('role' in request.resource.data);
+      allow create: if signedIn() && request.auth.uid == uid && request.resource.data.role == 'driver' && request.resource.data.active == true && request.resource.data.keys().hasOnly(['uid','name','email','depot','role','active','createdAt']);
       allow update: if signedIn() && request.auth.uid == uid && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role','active','depot']);
       allow delete: if manager();
     }
