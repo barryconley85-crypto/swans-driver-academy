@@ -8,7 +8,7 @@ service cloud.firestore {
   match /users/{uid}{
    allow read:if signedIn()&&(request.auth.uid==uid||manager());
    allow create:if false;
-   allow update:if signedIn()&&request.auth.uid==uid&&!request.resource.data.diff(resource.data).affectedKeys().hasAny(['role','active','depot','mustChangePassword','driverId','username']);
+   allow update:if (signedIn()&&request.auth.uid==uid&&!request.resource.data.diff(resource.data).affectedKeys().hasAny(['role','active','depot','mustChangePassword','driverId','username']))||(signedIn()&&request.auth.uid==uid&&resource.data.mustChangePassword==true&&request.resource.data.mustChangePassword==false&&request.resource.data.diff(resource.data).affectedKeys().hasOnly(['mustChangePassword','passwordChangedAt']));
    allow delete:if manager();
   }
   match /drivers/{id}{allow read,create,update:if manager();allow delete:if false;}
