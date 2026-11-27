@@ -12,7 +12,7 @@ service cloud.firestore {
       allow delete: if manager();
     }
     match /assignments/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update, delete: if manager(); }
-    match /trainingRecords/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update: if manager() || (activeUser() && request.resource.data.driverUid == request.auth.uid && request.resource.data.status in ['in_progress','submitted']); allow delete: if false; }
+    match /trainingRecords/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update: if manager() || (activeUser() && request.resource.data.driverUid == request.auth.uid && request.resource.data.status in ['in_progress','submitted','completed'] && (request.resource.data.status != 'completed' || (request.resource.data.score is number && request.resource.data.score >= 80 && request.resource.data.signedName is string && request.resource.data.signedName.size() > 1 && (request.resource.data.courseId != 'ctg-tt0004-distracted-driving' || request.resource.data.acknowledged == true)))); allow delete: if false; }
     match /practicalAssessments/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow create, update: if manager(); allow delete: if false; }
     match /certificates/{id} { allow read: if manager() || (activeUser() && resource.data.driverUid == request.auth.uid); allow write: if manager(); }
     match /auditLog/{id} { allow read, create: if manager(); allow update, delete: if false; }
